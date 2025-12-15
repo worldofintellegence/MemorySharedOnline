@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b634f429312ec9409731142098cdd1e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161533
+  packageName: Mobile Controller System
+  packageVersion: 2.2
+  assetPath: Assets/Suriyun/MobileControllerSystem/_Examples/Example3/NavMesh.asset
+  uploadId: 606992

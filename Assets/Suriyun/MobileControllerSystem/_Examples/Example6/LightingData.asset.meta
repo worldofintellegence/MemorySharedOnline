@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b21bd34525eef4a5cb64c0aeaf299fad
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161533
+  packageName: Mobile Controller System
+  packageVersion: 2.2
+  assetPath: Assets/Suriyun/MobileControllerSystem/_Examples/Example6/LightingData.asset
+  uploadId: 606992

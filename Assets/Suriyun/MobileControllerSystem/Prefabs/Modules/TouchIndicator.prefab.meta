@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e72965635c46e8e4097170447b99164c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161533
+  packageName: Mobile Controller System
+  packageVersion: 2.2
+  assetPath: Assets/Suriyun/MobileControllerSystem/Prefabs/Modules/TouchIndicator.prefab
+  uploadId: 606992

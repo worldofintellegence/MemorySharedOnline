@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dfb460616b5b747cca4de55c5cc7f42b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161533
+  packageName: Mobile Controller System
+  packageVersion: 2.2
+  assetPath: Assets/Suriyun/MobileControllerSystem/_Examples/Example/ExampleActor.cs
+  uploadId: 606992

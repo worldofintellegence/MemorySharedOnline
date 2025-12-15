@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 82bf7ba868cf3d54e9b48ffb7be2527e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161533
+  packageName: Mobile Controller System
+  packageVersion: 2.2
+  assetPath: Assets/Suriyun/MobileControllerSystem/_Examples/Example4/ThirdPersonActor.cs
+  uploadId: 606992

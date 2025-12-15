@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e0b9090fbabd64b3eb921ba12ce3b01f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161533
+  packageName: Mobile Controller System
+  packageVersion: 2.2
+  assetPath: Assets/Suriyun/MobileControllerSystem/_Examples/Example/Prefab/SkillRotatingBox.prefab
+  uploadId: 606992
