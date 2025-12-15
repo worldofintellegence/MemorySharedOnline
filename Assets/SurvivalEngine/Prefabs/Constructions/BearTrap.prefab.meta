@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a90a3f56cad2d6949a10e7126056b7ce
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/BearTrap.prefab
+  uploadId: 777425

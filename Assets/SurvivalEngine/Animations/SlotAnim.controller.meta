@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb0c0e7d0f719484288b45c7b5913c9c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Animations/SlotAnim.controller
+  uploadId: 777425

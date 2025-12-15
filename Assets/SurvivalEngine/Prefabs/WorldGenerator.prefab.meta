@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 57a41989932bae946b1697b23abe8da2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/WorldGenerator.prefab
+  uploadId: 777425

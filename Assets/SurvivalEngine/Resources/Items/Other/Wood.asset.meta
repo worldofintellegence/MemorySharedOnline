@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff17a3d8277ae7747bfb1f6f538bdd45
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Other/Wood.asset
+  uploadId: 777425

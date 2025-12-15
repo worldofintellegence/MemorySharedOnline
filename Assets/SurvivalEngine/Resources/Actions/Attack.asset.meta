@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5fb15a4ec43d5b24698566024a0311af
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/Attack.asset
+  uploadId: 777425

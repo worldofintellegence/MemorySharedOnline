@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1973428f866ec8c47bd77c258b40e48b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Animals/HorseItem.asset
+  uploadId: 777425

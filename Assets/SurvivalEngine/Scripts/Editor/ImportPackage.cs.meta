@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c35ca4598516576439211d5c1e93a18a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Scripts/Editor/ImportPackage.cs
+  uploadId: 777425

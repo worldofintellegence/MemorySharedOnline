@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b1b6ef1f005a7e742ac193356432c978
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Animals/Fly.prefab
+  uploadId: 777425

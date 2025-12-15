@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e15d39815d166c846adf2c66bc6873ac
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/WallGrid.prefab
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6e5f68f177fadc346a6179a9d2b79009
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Map.prefab
+  uploadId: 777425

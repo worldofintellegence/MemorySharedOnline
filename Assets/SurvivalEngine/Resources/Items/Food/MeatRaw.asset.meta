@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2e0df18e90d6f824296ae8ee0e685b5e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/MeatRaw.asset
+  uploadId: 777425

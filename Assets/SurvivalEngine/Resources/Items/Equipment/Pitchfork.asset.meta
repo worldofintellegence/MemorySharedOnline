@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 206a5fd8f4db74b47bb1dd928e1dbc31
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Equipment/Pitchfork.asset
+  uploadId: 777425

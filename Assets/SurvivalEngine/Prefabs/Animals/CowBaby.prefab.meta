@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 26b509c3cf1b2614184b2d639060b6ed
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Animals/CowBaby.prefab
+  uploadId: 777425

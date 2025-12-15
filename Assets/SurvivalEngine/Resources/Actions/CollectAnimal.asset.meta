@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abfa8c9682287d54ea5e1149132d9f12
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/CollectAnimal.asset
+  uploadId: 777425

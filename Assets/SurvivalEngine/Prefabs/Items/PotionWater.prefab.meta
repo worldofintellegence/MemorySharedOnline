@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d552fcf5e9075d74a81aff6e41a1a7ce
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/PotionWater.prefab
+  uploadId: 777425

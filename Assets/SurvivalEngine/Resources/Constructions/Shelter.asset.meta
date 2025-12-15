@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 298cfbf6a6693aa40a282354f6901699
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/Shelter.asset
+  uploadId: 777425

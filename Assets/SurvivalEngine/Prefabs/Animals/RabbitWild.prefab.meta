@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c61f50c50fef25e43a159d8e505a6973
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Animals/RabbitWild.prefab
+  uploadId: 777425

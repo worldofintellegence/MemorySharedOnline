@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4b52a1a8ad62d6744b8022ab85238576
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/MeatRaw.prefab
+  uploadId: 777425

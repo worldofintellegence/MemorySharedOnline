@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cd62742a97370a745b2c8e13afeb0c8c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Player/PlayerCharacterGirl.prefab
+  uploadId: 777425

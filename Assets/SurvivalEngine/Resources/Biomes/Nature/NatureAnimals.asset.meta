@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 172a2beddc2fdb34791ceaf5c9dbb5f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Nature/NatureAnimals.asset
+  uploadId: 777425

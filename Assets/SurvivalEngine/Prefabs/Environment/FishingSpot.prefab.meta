@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c64a19acfc3a298489278252c0d84eac
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Environment/FishingSpot.prefab
+  uploadId: 777425

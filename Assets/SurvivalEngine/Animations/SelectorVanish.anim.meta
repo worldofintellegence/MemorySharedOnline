@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c795051344d0ed64fa38e4849b77edba
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Animations/SelectorVanish.anim
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cace3389e62131a4284e5ed9380f7dc5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Equipment/ArmorWood.asset
+  uploadId: 777425

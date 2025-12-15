@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a39f4a74d4beee41b2e5727d38e2a76
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Equipment/Nutgun.asset
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 257e17731bb205a479afa6cbf506ce83
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Environment/SnowFlat.prefab
+  uploadId: 777425

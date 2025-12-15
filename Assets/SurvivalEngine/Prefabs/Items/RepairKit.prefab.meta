@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a5ea078009862b348a26b2bce6a3f5bf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/RepairKit.prefab
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9c832c714f679f745b4dfa33f5cc5d66
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/PotionEmpty.prefab
+  uploadId: 777425

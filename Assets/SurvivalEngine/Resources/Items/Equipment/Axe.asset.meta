@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5dee5bee07d599343865a60b57e5973d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Equipment/Axe.asset
+  uploadId: 777425

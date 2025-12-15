@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6174e6a4a41ce274795180ec38e5accc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Animals/PigItem.asset
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eeda85c60f366a44d8c3d82fd43480ae
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Equip/FishRodEquip.prefab
+  uploadId: 777425

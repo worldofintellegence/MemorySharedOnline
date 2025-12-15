@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 934fc7fc48634674f848da1c928542ad
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Environment/Grave.prefab
+  uploadId: 777425

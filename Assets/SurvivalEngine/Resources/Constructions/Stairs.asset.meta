@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: be151977c07c27e4ca1c1f75d7f8cbe8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/Stairs.asset
+  uploadId: 777425

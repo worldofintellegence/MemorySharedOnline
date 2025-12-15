@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 85a84d933d78c9d43838916547b90217
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Equipment/RingPower.asset
+  uploadId: 777425

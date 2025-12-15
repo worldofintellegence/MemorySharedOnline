@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2c19bf3bcca8ab84cac8a8171807a735
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Tropic/TropicItems.asset
+  uploadId: 777425

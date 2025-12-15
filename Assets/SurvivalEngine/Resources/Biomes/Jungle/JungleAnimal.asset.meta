@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cd872e71bb252b34c8aae2f56c11ddce
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Jungle/JungleAnimal.asset
+  uploadId: 777425

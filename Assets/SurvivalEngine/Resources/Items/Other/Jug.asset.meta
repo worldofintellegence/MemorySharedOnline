@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4469943e2e06010469c9257e0c3153ee
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Other/Jug.asset
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c6a2f823b5b0bcc468db097c1a5d9e97
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/Tower.prefab
+  uploadId: 777425

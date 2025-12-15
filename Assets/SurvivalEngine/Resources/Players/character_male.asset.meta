@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c5ae227de653d94b9b9e3d1665d982d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Players/character_male.asset
+  uploadId: 777425

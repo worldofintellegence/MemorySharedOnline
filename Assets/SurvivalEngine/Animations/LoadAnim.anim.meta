@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5e716616e9807f946aa61e09dc17aa24
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Animations/LoadAnim.anim
+  uploadId: 777425

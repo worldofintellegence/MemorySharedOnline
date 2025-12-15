@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7288656d8994a424f9c8f42d29883769
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/BonusEffects/AttackBoostRing.asset
+  uploadId: 777425

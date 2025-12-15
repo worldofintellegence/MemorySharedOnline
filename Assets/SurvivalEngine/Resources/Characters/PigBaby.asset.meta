@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f033deea6649dd40aed4f57b2d34675
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Characters/PigBaby.asset
+  uploadId: 777425

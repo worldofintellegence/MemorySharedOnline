@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 344a440bec8a3e14c88566ed91a2fd06
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 23800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Scenes/Game/WorldGenMap/NavMesh-NavMesh 1.asset
+  uploadId: 777425

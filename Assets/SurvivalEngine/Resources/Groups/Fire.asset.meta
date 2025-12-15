@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 272a0f2d4a570bf4a87df7bd63ad96d1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Groups/Fire.asset
+  uploadId: 777425

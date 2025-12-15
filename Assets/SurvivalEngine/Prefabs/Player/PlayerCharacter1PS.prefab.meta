@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0142f98aabff7de48bdbb4522268e94b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Player/PlayerCharacter1PS.prefab
+  uploadId: 777425

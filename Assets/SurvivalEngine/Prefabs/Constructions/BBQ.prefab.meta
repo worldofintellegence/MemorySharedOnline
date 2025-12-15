@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 25ed98aa54456764c98599d4317c0a7d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/BBQ.prefab
+  uploadId: 777425

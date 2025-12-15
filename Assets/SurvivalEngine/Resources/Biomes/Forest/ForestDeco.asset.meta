@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2bde437e781401e44beaf363d0e39383
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Forest/ForestDeco.asset
+  uploadId: 777425

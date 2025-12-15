@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6466ebbd332acbb43ad6957033938ad1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/BarnStatic.prefab
+  uploadId: 777425

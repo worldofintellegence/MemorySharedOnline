@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 28d7902f29114c54fae5f46006b3e298
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Enemies/Skeleton.prefab
+  uploadId: 777425

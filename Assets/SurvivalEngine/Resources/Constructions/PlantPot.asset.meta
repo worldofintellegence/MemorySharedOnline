@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5af573d9fc5fa9049b28f5917dbe7f7a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/PlantPot.asset
+  uploadId: 777425

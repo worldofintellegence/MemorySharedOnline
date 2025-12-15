@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f66f65507503f4c4bbde220bb0f3174c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Plants/RicePlant.asset
+  uploadId: 777425

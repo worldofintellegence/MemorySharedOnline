@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dbda6d8bb2e60cf4f91082762fb0b57d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Other/Herbs.asset
+  uploadId: 777425

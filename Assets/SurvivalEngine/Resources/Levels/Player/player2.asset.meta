@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 47268489746cbc4479de1866278e2f49
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Levels/Player/player2.asset
+  uploadId: 777425

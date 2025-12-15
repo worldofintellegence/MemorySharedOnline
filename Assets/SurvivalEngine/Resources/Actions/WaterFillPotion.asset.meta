@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff01750bd0e651c4a9d1c510dd914ef6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/WaterFillPotion.asset
+  uploadId: 777425

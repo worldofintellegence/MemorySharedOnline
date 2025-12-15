@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f29828c36c2321040b1fbfd9f69600e5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Animations/FenceIdle.anim
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6663a7cd4a9143344bf3db5a8e71d3db
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/ForestLeaf/ForestLeafAnimals.asset
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e30c7eea511d45988cbaa3601f7b2e2d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Player/PlayerCharacterFarmerGirl.prefab
+  uploadId: 777425

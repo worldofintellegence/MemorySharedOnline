@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: de0a75130d45aaa4d91b9b92fc12f895
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Scenes/Game/WorldGenMap.unity
+  uploadId: 777425

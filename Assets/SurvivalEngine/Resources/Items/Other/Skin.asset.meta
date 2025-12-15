@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b30e52579d14bc48b278438066d67ea
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Other/Skin.asset
+  uploadId: 777425

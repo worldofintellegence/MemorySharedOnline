@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 61f02c3c88b8c3f4bbd9d0d49d457f5a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/WinterBoots.prefab
+  uploadId: 777425

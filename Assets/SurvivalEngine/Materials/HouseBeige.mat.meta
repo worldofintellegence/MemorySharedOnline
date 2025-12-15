@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 16d4c8226d7d3b04cad117f15536a525
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Materials/HouseBeige.mat
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5b4e4684b7fc9a64fb7606f430574ae7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/ForestLeaf/ForestLeafItems.asset
+  uploadId: 777425

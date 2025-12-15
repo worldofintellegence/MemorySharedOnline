@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fafb85a7a5780ec4e8bde0c695000835
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Decoration/FloorPattern.prefab
+  uploadId: 777425

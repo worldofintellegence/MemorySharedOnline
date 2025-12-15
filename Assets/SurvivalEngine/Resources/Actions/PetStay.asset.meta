@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c05b3657cc37584ca5472f983a8c5fc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/PetStay.asset
+  uploadId: 777425

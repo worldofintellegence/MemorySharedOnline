@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0e7f89520ff1a3e4488a8d504676e2f8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Cooking/Bread.asset
+  uploadId: 777425

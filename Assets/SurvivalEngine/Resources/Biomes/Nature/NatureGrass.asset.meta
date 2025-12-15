@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c9a4468993e429b4a87540c1fc45fbae
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Nature/NatureGrass.asset
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4423eabd07612c94589084f778edb003
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Equip/ArmorEquip.prefab
+  uploadId: 777425

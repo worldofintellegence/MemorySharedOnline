@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0b529d6bd2c554d40a1d582adc78efb0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Terrain/RiverStraight.prefab
+  uploadId: 777425

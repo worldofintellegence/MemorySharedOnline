@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cce4500ffc81bf34a8e86b182de37d7d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Equip/TorchEquip.prefab
+  uploadId: 777425

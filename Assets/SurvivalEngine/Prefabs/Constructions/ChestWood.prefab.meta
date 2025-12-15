@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5f57383f86a8cc342985de3d544b86e2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/ChestWood.prefab
+  uploadId: 777425

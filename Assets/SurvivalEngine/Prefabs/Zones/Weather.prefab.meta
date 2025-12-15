@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dee99ab0369da33489913e186539da83
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Zones/Weather.prefab
+  uploadId: 777425

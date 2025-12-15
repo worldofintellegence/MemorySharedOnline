@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f8e3323497cfb9d4fa72ec57801030e8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/FX/Spawner.prefab
+  uploadId: 777425

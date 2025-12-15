@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a6e39a212688bfe4998f40fe089ce3d1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/Fence.prefab
+  uploadId: 777425

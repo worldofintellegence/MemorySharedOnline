@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 90f77eb297a087e4e850912ad3acdd27
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Models/Animals/BirdFly.controller
+  uploadId: 777425

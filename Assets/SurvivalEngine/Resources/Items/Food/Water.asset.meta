@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: da105bfdff77e5b41b17c72082c56d9d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/Water.asset
+  uploadId: 777425

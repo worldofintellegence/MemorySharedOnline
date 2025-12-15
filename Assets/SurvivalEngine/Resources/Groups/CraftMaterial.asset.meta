@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d09e5648b0a9cc7478e5ed56a17be0c6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Groups/CraftMaterial.asset
+  uploadId: 777425

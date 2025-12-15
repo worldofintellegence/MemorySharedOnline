@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3c602309009edc1478915138fa9cbaed
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Animations/SlotGain.anim
+  uploadId: 777425

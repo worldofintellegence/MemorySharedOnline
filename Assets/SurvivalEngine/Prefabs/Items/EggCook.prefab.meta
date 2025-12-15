@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d7081a5afc7ef45478701f9b0c4613f3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/EggCook.prefab
+  uploadId: 777425

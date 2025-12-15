@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 244339899c2e52441856980793a220fd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/NetworkManager.prefab
+  uploadId: 777425

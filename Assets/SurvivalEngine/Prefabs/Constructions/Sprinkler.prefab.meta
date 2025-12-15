@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0db18d70a37c27544a271c5bd2c5f299
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/Sprinkler.prefab
+  uploadId: 777425

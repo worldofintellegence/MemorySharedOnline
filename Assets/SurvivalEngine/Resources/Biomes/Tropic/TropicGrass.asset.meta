@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bbf3b6c49be93f44e87a840897dd3659
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Tropic/TropicGrass.asset
+  uploadId: 777425

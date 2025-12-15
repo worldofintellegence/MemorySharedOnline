@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a1be2aae0a171f747ac4bc34d6d10261
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/Lure.prefab
+  uploadId: 777425

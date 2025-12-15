@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 49aec3db6669d1d4e9d8e8bcc9f02d4c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Plants/Grass.asset
+  uploadId: 777425

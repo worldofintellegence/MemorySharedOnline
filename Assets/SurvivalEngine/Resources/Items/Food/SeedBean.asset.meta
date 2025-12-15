@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd3a934b181998940a6fe1e48f3d5c06
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/SeedBean.asset
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a83674bc91aba1f4abbcec88b5d0a145
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/FurnaceMix.asset
+  uploadId: 777425

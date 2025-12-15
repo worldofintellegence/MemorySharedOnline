@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 03536d5dfa865994689b467ceb7c258d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Plants/OrangeTree.asset
+  uploadId: 777425

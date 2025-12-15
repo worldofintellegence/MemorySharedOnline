@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 904dcdefcc0f1d64492105706ba012f7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Plants/PepperPlant.asset
+  uploadId: 777425

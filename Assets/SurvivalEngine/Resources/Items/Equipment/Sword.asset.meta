@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7ca3893a167324a48a179a1f62051b72
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Equipment/Sword.asset
+  uploadId: 777425

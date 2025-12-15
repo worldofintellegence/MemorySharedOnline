@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 80b5643128f295a40b37f7099e7ff5da
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/ScrollAlchemy.prefab
+  uploadId: 777425

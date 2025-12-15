@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: af03216bd860e2c4486102f4f3e51a2d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Cleaver.prefab
+  uploadId: 777425

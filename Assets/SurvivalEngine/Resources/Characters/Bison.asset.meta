@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ce4db9bebbb76e4ca3a552a37827785
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Characters/Bison.asset
+  uploadId: 777425

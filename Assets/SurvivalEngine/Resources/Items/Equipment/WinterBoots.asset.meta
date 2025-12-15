@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 041da15ad2af46643821ef94bc05257a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Equipment/WinterBoots.asset
+  uploadId: 777425

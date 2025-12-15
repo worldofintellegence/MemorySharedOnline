@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 14e7445e5c6625340bbf68200612059e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/Trap.asset
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: faa64041c711a82439f4fda697242d23
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Town/SignArrow.prefab
+  uploadId: 777425

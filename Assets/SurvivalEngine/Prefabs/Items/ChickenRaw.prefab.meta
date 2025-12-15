@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 05af0e92abec2174b8079e8c4f3b0716
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/ChickenRaw.prefab
+  uploadId: 777425

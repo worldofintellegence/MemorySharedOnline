@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 52bf9c0574f8b6f41bb2081110b31f0e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Animations/Windmill.controller
+  uploadId: 777425

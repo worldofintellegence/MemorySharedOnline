@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 113e1f5e52394af46897f08b019ba5e3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/Honey.asset
+  uploadId: 777425

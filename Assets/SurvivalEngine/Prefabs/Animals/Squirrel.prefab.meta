@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bffe555d7e307c84aad24dab3a667461
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Animals/Squirrel.prefab
+  uploadId: 777425

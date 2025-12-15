@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e877c2692a70b5543a4e55a458c2369a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/MetalBar.prefab
+  uploadId: 777425

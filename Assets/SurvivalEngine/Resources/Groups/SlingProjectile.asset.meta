@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b18570c51cb13794b86ba1f31019c6e3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Groups/SlingProjectile.asset
+  uploadId: 777425

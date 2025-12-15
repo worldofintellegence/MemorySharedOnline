@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 20849ebfb949e7c4e863d07bd12e7df5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/SeedPepper.asset
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b7123c5700a25f24f82220af1bb2d68e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Animations/CraftBarShow.anim
+  uploadId: 777425

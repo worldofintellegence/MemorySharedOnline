@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3e0a478e2541466980c170d83b2b131b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/Blueberry.asset
+  uploadId: 777425

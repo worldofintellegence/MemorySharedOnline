@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6e42c564ae20a1141a5763086007e06c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/FX/HeavyRainFX.prefab
+  uploadId: 777425

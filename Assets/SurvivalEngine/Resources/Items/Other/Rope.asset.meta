@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 33f37dc75b1a17a43aa91b5f8d5ef806
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Other/Rope.asset
+  uploadId: 777425

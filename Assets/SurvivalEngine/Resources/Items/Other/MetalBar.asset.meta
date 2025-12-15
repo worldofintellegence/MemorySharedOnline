@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a75426714eda0b43b4aeccbcf4e1f8f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Other/MetalBar.asset
+  uploadId: 777425

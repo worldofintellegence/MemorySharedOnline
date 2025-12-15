@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e60fb2e10a3170b468e257681603d8bf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Plants/StrawberryPlant.asset
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0dc5bbfd6c93e0448b60c4076499883f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Groups/Fruit.asset
+  uploadId: 777425

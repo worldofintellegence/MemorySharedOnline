@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 61ec30d936c6ec14d9b854c021756b45
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/MushroomRed.prefab
+  uploadId: 777425

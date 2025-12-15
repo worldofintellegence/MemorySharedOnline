@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 850af7f4543adc24284c36df1a2e4cd4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Field/FieldDeco.asset
+  uploadId: 777425

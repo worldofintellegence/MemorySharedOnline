@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8581f56f62869e34b8010b97849d0690
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Scripts/Gameplay/Sprinkler.cs
+  uploadId: 777425

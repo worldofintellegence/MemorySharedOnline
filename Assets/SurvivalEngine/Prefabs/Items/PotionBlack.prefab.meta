@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 20c856f9c35d00e42906e618dde09207
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/PotionBlack.prefab
+  uploadId: 777425

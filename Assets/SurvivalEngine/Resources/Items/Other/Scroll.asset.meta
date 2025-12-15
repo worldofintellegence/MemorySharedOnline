@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bc875b27c15655d4384ec5d56a9b6562
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Other/Scroll.asset
+  uploadId: 777425

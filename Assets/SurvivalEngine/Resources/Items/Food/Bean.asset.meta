@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eab4bacaf4105ca4982b66a5ef896590
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/Bean.asset
+  uploadId: 777425

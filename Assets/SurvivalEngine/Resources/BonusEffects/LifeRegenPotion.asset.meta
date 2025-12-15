@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e3dc98fceda2d174a996d7f4ce32997a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/BonusEffects/LifeRegenPotion.asset
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c5329f017159cd641afdb907cac6f349
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/FX/NutProjectile.prefab
+  uploadId: 777425

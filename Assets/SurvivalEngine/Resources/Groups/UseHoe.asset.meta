@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 14a49d10210d4d0428dc0e9a15ea7732
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Groups/UseHoe.asset
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 48ed8c574b29eed4683ef14eee6389af
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Install/game.service
+  uploadId: 777425

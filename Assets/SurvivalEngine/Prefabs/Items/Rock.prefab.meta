@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 60a786d7cf6cfc8469f2a7353caf416d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Rock.prefab
+  uploadId: 777425

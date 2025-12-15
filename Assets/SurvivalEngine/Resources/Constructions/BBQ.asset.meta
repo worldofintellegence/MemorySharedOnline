@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2e2041229b6b8324596bf8dec39d3691
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/BBQ.asset
+  uploadId: 777425

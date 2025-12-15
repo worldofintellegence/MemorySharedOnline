@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d610359afaebc0e438dc84c20c3fb2aa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Materials/PlantLight.mat
+  uploadId: 777425

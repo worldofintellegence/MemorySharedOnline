@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ef2d10bfe14935a44b42926132366f87
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Town/TownHouseTeal.prefab
+  uploadId: 777425

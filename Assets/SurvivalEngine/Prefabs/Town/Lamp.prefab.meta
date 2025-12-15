@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 48b1b80d3ee1f4f4cbada72d9961e3d0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Town/Lamp.prefab
+  uploadId: 777425

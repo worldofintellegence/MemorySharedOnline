@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9bee537e23214f94da19f914c16cc792
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Scenes/Game/Mine/Mine.lighting
+  uploadId: 777425

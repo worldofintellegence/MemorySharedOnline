@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e80f2dbac47782a4cb8e45a5ba8016c6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Animals/Bison.prefab
+  uploadId: 777425

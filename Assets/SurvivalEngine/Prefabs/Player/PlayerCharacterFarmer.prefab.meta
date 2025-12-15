@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 94ba7609da314cbd94b8d5881f8696cc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Player/PlayerCharacterFarmer.prefab
+  uploadId: 777425

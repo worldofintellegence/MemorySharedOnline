@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eadaacee08da3b342bb6b90ce810628c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Animations/FenceAnim.controller
+  uploadId: 777425

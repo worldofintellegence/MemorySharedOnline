@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 924b665b1bd1cff4f8f59705d6ddf771
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/Revive.asset
+  uploadId: 777425

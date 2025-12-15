@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 50da39e0afde2b74f9cfe12aff1b1c66
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Other/Scope.asset
+  uploadId: 777425

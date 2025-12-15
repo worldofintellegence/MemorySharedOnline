@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3b676fa434de65f44b06a31ddcb00642
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Animals/Chicken.prefab
+  uploadId: 777425

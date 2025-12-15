@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 56b97ec87498600408590ae82c80f4e3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Plants/PineTree.asset
+  uploadId: 777425

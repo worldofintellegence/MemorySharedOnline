@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e41b5ac25fe394b44b4225a292ac3e7f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/FX/BubbleFX.prefab
+  uploadId: 777425

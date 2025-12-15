@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba2bea24e2a1be541bc7fe8a973b3ad5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/StationAlchemy.asset
+  uploadId: 777425

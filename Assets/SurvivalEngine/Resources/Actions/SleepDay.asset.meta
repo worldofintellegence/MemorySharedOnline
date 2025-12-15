@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4f33e22646e65594582cdcf649f8035e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/SleepDay.asset
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5a1e6c0f1d151034da258f6f0967f0f0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Models/Animals/Sheep.controller
+  uploadId: 777425

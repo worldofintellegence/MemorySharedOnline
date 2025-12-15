@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4be494ae55e44234e9515140f92a03d9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Backpack.prefab
+  uploadId: 777425

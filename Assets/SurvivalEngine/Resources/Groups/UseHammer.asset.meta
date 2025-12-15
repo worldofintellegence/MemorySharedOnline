@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8e5f66039de51ad4ca917f4fcdbe15b2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Groups/UseHammer.asset
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 70b57181c067a2a43a599599aea7a482
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/StationWorkshop.prefab
+  uploadId: 777425

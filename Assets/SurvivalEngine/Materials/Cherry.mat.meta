@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 34ff1d3fa8e86364a9f6c1dce868b467
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Materials/Cherry.mat
+  uploadId: 777425

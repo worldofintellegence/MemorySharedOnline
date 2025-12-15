@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9c3b327116b248e4fbaa148e8b7803db
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Materials/FloorMine.mat
+  uploadId: 777425

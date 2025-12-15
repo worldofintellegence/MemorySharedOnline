@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e434a53547899f04e8d72d5038fc5f00
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Field/FieldGrass.asset
+  uploadId: 777425

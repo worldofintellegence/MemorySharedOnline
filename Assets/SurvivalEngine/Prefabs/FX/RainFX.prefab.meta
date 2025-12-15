@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8904356494c10144c89539ea91df64cd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/FX/RainFX.prefab
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a1fb5f406a82c084cb4dfae3cefd0c71
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/BattleAxe.prefab
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3ef3fb4276248484aac40509d5c36c57
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/WallStone.prefab
+  uploadId: 777425

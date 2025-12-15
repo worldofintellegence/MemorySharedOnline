@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f2f46b3cecc17544b8ca34c71913a341
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/UI/HPBarSmall.prefab
+  uploadId: 777425

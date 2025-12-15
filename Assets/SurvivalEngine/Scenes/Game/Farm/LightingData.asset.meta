@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2867d921fb63d3e4cb7a4e6955f98be2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Scenes/Game/Farm/LightingData.asset
+  uploadId: 777425

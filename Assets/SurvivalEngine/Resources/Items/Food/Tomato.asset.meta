@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a86285c44b4e6ca4b8f428e836455c03
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/Tomato.asset
+  uploadId: 777425

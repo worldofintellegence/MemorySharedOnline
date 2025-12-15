@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 07eee0245f101654193e2cac67d4186f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Zones/SpawnZone.prefab
+  uploadId: 777425

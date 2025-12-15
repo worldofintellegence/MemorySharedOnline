@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4854cfc038416c44e80e2b582aa61732
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Terrain/Cliff.prefab
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e0be45a343177a4a89e4d91c92963e4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Animals/SheepItem.asset
+  uploadId: 777425

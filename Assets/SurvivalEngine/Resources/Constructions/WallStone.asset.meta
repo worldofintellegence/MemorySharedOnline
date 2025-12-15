@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4e12bbff1a92d1c458b95fc573b64f73
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/WallStone.asset
+  uploadId: 777425

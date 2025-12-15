@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6fc9bfa34aaddc048a8b2cdff3d4129f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Terrain/SoilBig.prefab
+  uploadId: 777425

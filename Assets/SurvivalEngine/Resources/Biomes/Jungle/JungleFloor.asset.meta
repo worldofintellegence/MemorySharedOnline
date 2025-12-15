@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4d8df2a685d814142b22210ad527b3d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Jungle/JungleFloor.asset
+  uploadId: 777425

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e2760bf1c612e57448d08f5d1d8c2f06
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Scripts/Netcode/NetworkActions/NetworkActionObject.cs
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 36991d6f8d85b9641b2c3b47646a85ac
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/FishCooked.prefab
+  uploadId: 777425

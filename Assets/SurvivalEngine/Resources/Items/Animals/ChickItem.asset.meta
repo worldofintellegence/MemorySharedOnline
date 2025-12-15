@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4cbc3866d72b2204aab8d9439786ed2b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Animals/ChickItem.asset
+  uploadId: 777425

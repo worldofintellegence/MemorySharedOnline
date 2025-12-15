@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 96fdf0ff97d39604bb79d1ce8d94907f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/ForestLeaf/ForestLeafFloor.asset
+  uploadId: 777425

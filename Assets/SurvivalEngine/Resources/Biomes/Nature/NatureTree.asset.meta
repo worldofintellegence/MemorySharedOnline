@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0162ca06e539c074f9d25c4fb00ea6c0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Nature/NatureTree.asset
+  uploadId: 777425

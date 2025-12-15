@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 63a88fef67c79074990902514ccec79e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Town/NPCGirl.prefab
+  uploadId: 777425

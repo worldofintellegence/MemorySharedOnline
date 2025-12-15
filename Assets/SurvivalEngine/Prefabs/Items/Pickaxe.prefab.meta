@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d161f78eb6cbac04f814beea18211d85
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Pickaxe.prefab
+  uploadId: 777425

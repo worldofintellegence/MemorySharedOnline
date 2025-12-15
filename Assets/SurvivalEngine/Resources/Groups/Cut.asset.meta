@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea553d327ce002d4485bcda2052fa282
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Groups/Cut.asset
+  uploadId: 777425

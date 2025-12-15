@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30a5f2b59cb58584ebb9928a4cd739ab
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/BonusEffects/ColdResistHalf.asset
+  uploadId: 777425

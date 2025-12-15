@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc7f1331dd18cc946b7ef19d86e73a99
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/FX/ItemMergeFX.prefab
+  uploadId: 777425

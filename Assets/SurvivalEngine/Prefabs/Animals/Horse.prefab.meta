@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6690f739508bedd469b58f3cfd5505bb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Animals/Horse.prefab
+  uploadId: 777425

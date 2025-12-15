@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b0a044bccd56e064e8c49e091e89b2c9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Equipment/Scythe.asset
+  uploadId: 777425

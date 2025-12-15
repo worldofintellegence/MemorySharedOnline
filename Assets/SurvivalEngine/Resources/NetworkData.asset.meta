@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6b8213d4edf8d94eb43f17b45a41ab6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/NetworkData.asset
+  uploadId: 777425

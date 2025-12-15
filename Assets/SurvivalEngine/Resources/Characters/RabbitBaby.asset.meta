@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 86fa7d04858a2e14e97d5397fffca471
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Characters/RabbitBaby.asset
+  uploadId: 777425

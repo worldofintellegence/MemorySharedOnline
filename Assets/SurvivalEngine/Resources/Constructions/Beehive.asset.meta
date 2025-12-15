@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c66c3a0f0e75dee47969271ccc813df7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/Beehive.asset
+  uploadId: 777425

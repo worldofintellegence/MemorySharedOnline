@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a5c640918b6f51041b6a7768c80eb99a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Desert/DesertItems.asset
+  uploadId: 777425

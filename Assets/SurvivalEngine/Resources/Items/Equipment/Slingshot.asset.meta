@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eec86654b4cf26247a47a5a48d1a8cb4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Equipment/Slingshot.asset
+  uploadId: 777425

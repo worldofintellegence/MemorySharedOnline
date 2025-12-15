@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 946cbb3c2550f624eb16758541f95b27
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Environment/DrinkSurface.prefab
+  uploadId: 777425

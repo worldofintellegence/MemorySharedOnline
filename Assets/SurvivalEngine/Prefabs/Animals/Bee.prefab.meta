@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0a09a0792f0ae71478181e4e47b9e0ad
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Animals/Bee.prefab
+  uploadId: 777425

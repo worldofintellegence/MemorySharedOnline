@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 94b8c710168526948b7c100eaf0e1d0c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/FenceDoor.asset
+  uploadId: 777425

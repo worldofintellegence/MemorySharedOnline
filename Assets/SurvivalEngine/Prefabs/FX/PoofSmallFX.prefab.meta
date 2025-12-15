@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d60c5c6c5a1ef4d4cb2c550bb13512cb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/FX/PoofSmallFX.prefab
+  uploadId: 777425

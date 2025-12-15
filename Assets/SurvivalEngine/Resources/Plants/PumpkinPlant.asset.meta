@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 11f530c7795219149b75c4e300ffb058
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Plants/PumpkinPlant.asset
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d86599979e84e1642b95545711aee516
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Vest.prefab
+  uploadId: 777425

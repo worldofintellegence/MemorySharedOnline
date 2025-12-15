@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: db977c61ff9ea154dad062cc8e08dc37
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Town/Bench.prefab
+  uploadId: 777425

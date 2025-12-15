@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f2fcd1a95402ca448b719c1e107f8bf4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/Strawberry.asset
+  uploadId: 777425

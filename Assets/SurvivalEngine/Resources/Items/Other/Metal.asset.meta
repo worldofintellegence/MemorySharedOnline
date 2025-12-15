@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2a15992b76b7ef64ab85a3da1cecbfba
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Other/Metal.asset
+  uploadId: 777425

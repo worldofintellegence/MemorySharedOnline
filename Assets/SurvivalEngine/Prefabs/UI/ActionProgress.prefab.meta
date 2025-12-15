@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4a98ed5078294664f82e44febf29548d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/UI/ActionProgress.prefab
+  uploadId: 777425

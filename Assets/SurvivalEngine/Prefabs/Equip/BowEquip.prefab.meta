@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c77ff1a6d7f8a4e4da426a8aa34c4866
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Equip/BowEquip.prefab
+  uploadId: 777425

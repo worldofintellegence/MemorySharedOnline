@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea02aba8edf776042b61af070795bdcb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/FurnaceMetal.asset
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 721446a73d648c84cb1af2d5cf79a7ce
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/DrinkSource.asset
+  uploadId: 777425

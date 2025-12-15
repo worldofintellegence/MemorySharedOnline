@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7a869e7a2c721874cbbdb8bd051a00d8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/PotionEmpty.asset
+  uploadId: 777425

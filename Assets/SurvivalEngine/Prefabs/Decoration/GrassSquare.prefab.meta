@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5df31f1ab083ed84088abf630fc2a46a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Decoration/GrassSquare.prefab
+  uploadId: 777425

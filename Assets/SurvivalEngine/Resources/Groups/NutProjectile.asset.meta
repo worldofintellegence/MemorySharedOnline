@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1da81a6ba0dc80e4194746ae2aad0305
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Groups/NutProjectile.asset
+  uploadId: 777425

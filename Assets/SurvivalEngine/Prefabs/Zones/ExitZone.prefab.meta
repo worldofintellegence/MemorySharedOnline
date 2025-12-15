@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f12c7b8b1e52233498aab5ddf93cd0cf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Zones/ExitZone.prefab
+  uploadId: 777425

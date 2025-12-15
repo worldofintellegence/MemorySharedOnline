@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a2bcbb96cebaa0648a4a3f5b6a613093
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/Coconut.asset
+  uploadId: 777425

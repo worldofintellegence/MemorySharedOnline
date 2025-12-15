@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d9d3f0e6d618cff42ad4f51d65c4032a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/BonusEffects/SpeedBoostPotion.asset
+  uploadId: 777425

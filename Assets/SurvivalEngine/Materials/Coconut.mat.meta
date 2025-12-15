@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c158ad6d845b5764081ca7e178e3e062
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Materials/Coconut.mat
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fbeb671df8259ec438e5b89907786119
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/AudioManager.prefab
+  uploadId: 777425

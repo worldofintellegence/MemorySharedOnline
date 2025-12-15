@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5d23851a3a542e1478f382be9bea8955
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Animations/FishAnim.controller
+  uploadId: 777425

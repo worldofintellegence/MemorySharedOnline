@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a887aefd9a722dc429f807df55d1a2e3
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Licence.txt
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 352ba2332a126114a8f347bc32c65251
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Constructions/PlantPot.prefab
+  uploadId: 777425

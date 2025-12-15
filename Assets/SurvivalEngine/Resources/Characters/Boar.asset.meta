@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3105afef815b7df4e87442a65e70d707
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Characters/Boar.asset
+  uploadId: 777425

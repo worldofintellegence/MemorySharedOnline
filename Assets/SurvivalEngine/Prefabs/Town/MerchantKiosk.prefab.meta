@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abfa633346a129544929b3566c98e8fa
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Town/MerchantKiosk.prefab
+  uploadId: 777425

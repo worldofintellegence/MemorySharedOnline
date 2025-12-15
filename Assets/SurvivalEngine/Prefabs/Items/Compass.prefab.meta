@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6c918680d22af11469d9c4870d215c37
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Compass.prefab
+  uploadId: 777425

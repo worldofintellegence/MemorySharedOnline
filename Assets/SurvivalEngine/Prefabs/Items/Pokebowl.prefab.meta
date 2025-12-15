@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 78f4958b026ac3c4fb83390e0637afcd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Pokebowl.prefab
+  uploadId: 777425

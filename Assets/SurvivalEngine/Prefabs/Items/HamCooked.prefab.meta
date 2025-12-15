@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bdc6b675b19df3c489b819cf0d113171
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/HamCooked.prefab
+  uploadId: 777425

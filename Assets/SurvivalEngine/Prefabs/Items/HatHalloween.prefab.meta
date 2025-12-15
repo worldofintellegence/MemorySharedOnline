@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 425c63fe4a5b6a04bb78f540c1d4cbfb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/HatHalloween.prefab
+  uploadId: 777425

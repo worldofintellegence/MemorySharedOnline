@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 33c2ad163e361d247bafc432a773c3f1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Apple.prefab
+  uploadId: 777425

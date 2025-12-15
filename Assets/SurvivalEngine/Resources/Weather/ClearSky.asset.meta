@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a8b0b745f65f723418fa36a8d9a82d5c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Weather/ClearSky.asset
+  uploadId: 777425

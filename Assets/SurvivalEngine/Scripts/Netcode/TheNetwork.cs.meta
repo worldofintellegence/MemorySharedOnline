@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bbe5bb65445eda14794157ae42758a1f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: -10
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Scripts/Netcode/TheNetwork.cs
+  uploadId: 777425

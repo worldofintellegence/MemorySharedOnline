@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3fc0f4cd0c0233f43a9fcca818640548
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Models/Animals/Bear.controller
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 90a1d8904599a1240ae25bd6e734186c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/SeedCherry.asset
+  uploadId: 777425

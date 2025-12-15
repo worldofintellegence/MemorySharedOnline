@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 99264c4e3bab18f4fabe72f7ef3b3807
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Equipment/Spear.asset
+  uploadId: 777425

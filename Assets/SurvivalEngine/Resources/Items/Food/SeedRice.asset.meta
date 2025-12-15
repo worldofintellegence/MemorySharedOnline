@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a3d8365bdc3bb6145acb5979a7e39d0d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Food/SeedRice.asset
+  uploadId: 777425

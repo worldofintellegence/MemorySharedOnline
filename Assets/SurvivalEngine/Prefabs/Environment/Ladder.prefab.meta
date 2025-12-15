@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 68909a02cc11fc5489229560b56f14f6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Environment/Ladder.prefab
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f5b04ef07731de344b60cc7186a6460f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/HouseDeck.asset
+  uploadId: 777425

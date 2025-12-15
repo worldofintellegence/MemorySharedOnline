@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b85bdaa1cc60ffc419b9b037e39ac7a9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/CookEgg.asset
+  uploadId: 777425

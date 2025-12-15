@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c321327e23a9dbc42ac75498772b4d3b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Hammer.prefab
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8222fd653caf567408b1b9fac0d99ff6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Items/Cooking/FishNChip.asset
+  uploadId: 777425

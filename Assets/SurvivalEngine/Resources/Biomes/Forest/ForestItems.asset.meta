@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2f1ccb151f9aa247a612b89be12a4ee
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Biomes/Forest/ForestItems.asset
+  uploadId: 777425

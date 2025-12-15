@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 527f2ce472f9da645a8dd86f04bd9a89
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/PotionPurple.prefab
+  uploadId: 777425

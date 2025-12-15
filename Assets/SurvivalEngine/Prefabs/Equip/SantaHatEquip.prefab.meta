@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e9a8fa07724388e449ebe3d288bd73c1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Equip/SantaHatEquip.prefab
+  uploadId: 777425

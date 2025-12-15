@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2b6fdc95236ea794c89b29b82d6b55e7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Scenes/Game/Blank/Blank.lighting
+  uploadId: 777425

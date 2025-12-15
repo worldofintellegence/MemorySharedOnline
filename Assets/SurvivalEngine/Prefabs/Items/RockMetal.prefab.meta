@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 421caa6d0b4d5b442ae6c19453fa34fd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/RockMetal.prefab
+  uploadId: 777425

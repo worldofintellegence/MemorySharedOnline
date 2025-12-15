@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d1d9ac69244739546921e888113dab3c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Models/Animals/Pig.controller
+  uploadId: 777425

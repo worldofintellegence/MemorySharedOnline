@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0aaf56b3eacefb445b4efc7e734f2af5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Groups/TeamUndead.asset
+  uploadId: 777425

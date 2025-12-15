@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64be0f7a3e157ba4a8bd070aa358b662
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/TakeDestroy.asset
+  uploadId: 777425

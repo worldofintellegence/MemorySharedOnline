@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66c236470b373ce4abe5522340c605f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/Roof.asset
+  uploadId: 777425

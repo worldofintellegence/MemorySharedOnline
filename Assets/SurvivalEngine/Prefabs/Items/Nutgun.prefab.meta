@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e3d713d5e34fe434dba22e986f3f2081
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Nutgun.prefab
+  uploadId: 777425

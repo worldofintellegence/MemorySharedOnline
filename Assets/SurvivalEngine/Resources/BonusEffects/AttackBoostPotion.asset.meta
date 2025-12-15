@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 38ace7c0e51d3054b80a548dcef339c3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/BonusEffects/AttackBoostPotion.asset
+  uploadId: 777425

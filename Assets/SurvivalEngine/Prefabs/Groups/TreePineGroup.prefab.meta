@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 13181bc63cf5c66409222a0493123f13
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Groups/TreePineGroup.prefab
+  uploadId: 777425

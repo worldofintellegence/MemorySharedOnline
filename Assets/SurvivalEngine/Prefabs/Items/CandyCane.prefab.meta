@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fd3e753b9dd40dd4b9f4e62560b48ca7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/CandyCane.prefab
+  uploadId: 777425

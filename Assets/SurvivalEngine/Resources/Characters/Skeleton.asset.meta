@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0a1f8b3685e3ded40bc53714705df9be
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Characters/Skeleton.asset
+  uploadId: 777425

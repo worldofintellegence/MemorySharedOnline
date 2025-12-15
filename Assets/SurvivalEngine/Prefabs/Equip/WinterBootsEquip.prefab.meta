@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 003ba8c526247204b94a81a95a38c300
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Equip/WinterBootsEquip.prefab
+  uploadId: 777425

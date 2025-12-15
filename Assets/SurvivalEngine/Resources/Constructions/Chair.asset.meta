@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 08d33ade9adc3df4ebc5e38ef35f84a9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Constructions/Chair.asset
+  uploadId: 777425

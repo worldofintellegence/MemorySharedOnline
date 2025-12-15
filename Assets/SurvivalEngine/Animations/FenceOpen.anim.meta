@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 405896fb08c813c4796fc28a83a3d7ac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Animations/FenceOpen.anim
+  uploadId: 777425

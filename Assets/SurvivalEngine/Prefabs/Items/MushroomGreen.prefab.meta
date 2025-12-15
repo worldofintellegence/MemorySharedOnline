@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 776dd1b7078727d47a13a1e783c0ac12
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/MushroomGreen.prefab
+  uploadId: 777425

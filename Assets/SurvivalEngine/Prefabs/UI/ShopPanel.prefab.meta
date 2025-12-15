@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a14e72544c47d9d4eaf8a3682e03477d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/UI/ShopPanel.prefab
+  uploadId: 777425

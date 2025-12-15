@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 73b442deaa323b648b506594c8366fa1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Spear.prefab
+  uploadId: 777425

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4eb85f17072a26a4faf8966e2a54ca69
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Animations/ActionSelectorUI.controller
+  uploadId: 777425

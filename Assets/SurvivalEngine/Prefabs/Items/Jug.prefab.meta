@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b34550eb151007445a9508f41d8a5df5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Items/Jug.prefab
+  uploadId: 777425

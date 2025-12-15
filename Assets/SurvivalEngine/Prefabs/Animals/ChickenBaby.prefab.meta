@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6d83e47d0875b4b4fb5c6ae9daebed54
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Animals/ChickenBaby.prefab
+  uploadId: 777425

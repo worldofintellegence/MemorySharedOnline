@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b0a63d2e738056f4992e325b895c192c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Scenes/Menu/MenuLobby.unity
+  uploadId: 777425

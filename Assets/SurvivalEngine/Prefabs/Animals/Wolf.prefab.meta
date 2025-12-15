@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 408fdcb8f88603c469a60ab04249be40
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Animals/Wolf.prefab
+  uploadId: 777425

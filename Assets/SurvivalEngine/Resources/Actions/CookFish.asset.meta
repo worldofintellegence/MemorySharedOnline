@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ac84f66361f1dcc44af094af59986a37
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/CookFish.asset
+  uploadId: 777425

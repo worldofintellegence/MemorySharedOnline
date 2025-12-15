@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7bbeda502b4f8794aa73692ee1511f91
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Actions/CookHam.asset
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 742c5ae382d9ca9489273c5176d9de6c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Environment/DrinkSpot.prefab
+  uploadId: 777425

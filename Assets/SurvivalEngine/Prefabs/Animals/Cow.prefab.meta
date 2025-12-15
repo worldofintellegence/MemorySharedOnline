@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f3363781ef2977a418d93dc53360235d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Animals/Cow.prefab
+  uploadId: 777425

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a5ad65e8f6a95c148ae5f290034d42cd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Prefabs/Equip/BootsEquip.prefab
+  uploadId: 777425

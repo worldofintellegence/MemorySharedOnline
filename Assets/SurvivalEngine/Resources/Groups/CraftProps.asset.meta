@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ac998e4eeb8f0b743977b6e978e94583
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233322
+  packageName: Survival Engine Online
+  packageVersion: 2.17
+  assetPath: Assets/SurvivalEngine/Resources/Groups/CraftProps.asset
+  uploadId: 777425
