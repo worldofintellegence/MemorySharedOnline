@@ -303,8 +303,8 @@ namespace SurvivalEngine.EditorTool
                 rigid.useGravity = false;
                 rigid.isKinematic = type == CreateObjectType.Construction;
                 rigid.mass = 100f;
-                rigid.drag = 5f;
-                rigid.angularDrag = 5f;
+                rigid.linearDamping = 5f;
+                rigid.angularDamping = 5f;
                 rigid.interpolation = type == CreateObjectType.Character ? RigidbodyInterpolation.Interpolate : RigidbodyInterpolation.None;
                 rigid.constraints = RigidbodyConstraints.FreezeAll;
                 if (type == CreateObjectType.Character)

@@ -78,7 +78,7 @@ namespace NetcodePlus
                     {
                         rigid.detectCollisions = visible;
                         if (!rigid.isKinematic && !visible)
-                            rigid.velocity = Vector3.zero;
+                            rigid.linearVelocity = Vector3.zero;
                     }
 
                     foreach (MonoBehaviour script in scripts)

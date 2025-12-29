@@ -239,7 +239,7 @@ namespace SurvivalEngine
 
             //Apply movement
             moving = Vector3.Lerp(moving, tmove, 10f * Time.fixedDeltaTime);
-            rigid.velocity = moving;
+            rigid.linearVelocity = moving;
 
             //Find Facing direction
             if (IsMoving() && !IsDead())
@@ -272,9 +272,9 @@ namespace SurvivalEngine
             Vector3 offset = sync_state.position - next_pos; //Is the character position out of sync?
             
             if (offset.magnitude > moving_threshold)
-                rigid.velocity = moving + offset;
+                rigid.linearVelocity = moving + offset;
             else
-                rigid.velocity = moving;
+                rigid.linearVelocity = moving;
 
             if (offset.magnitude > 7f)
                 rigid.position = sync_state.position; //Teleport if too far
@@ -712,7 +712,7 @@ namespace SurvivalEngine
         {
             target = null;
             attack_target = null;
-            rigid.velocity = Vector3.zero;
+            rigid.linearVelocity = Vector3.zero;
             moving = Vector3.zero;
             move_target = transform.position;
             is_moving = false;
@@ -724,7 +724,7 @@ namespace SurvivalEngine
         public void StopMove()
         {
             move_target = transform.position;
-            rigid.velocity = Vector3.zero;
+            rigid.linearVelocity = Vector3.zero;
             moving = Vector3.zero;
             is_moving = false;
         }
@@ -867,7 +867,7 @@ namespace SurvivalEngine
 
         private void OnDeath()
         {
-            rigid.velocity = Vector3.zero;
+            rigid.linearVelocity = Vector3.zero;
             moving = Vector3.zero;
             rigid.isKinematic = true;
             target = null;
