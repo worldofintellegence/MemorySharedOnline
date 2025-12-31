@@ -68414,7 +68414,7 @@ MonoBehaviour:
   sensitivity: 0.08
   threshold: 0.02
   range: 0.1
-  fixed_position: 0
+  fixed_position: 1
   pin: {fileID: 4959741557916509095}
 --- !u!1 &7448522875436345112
 GameObject:
