@@ -35,6 +35,29 @@ namespace SurvivalEngine
         public bool gamepad_controls = false; //In gamepad mode, anything that can usually be done with the mouse will be replaced by keyboard/gamepad controls, 
                                               //for example the build system will place building differently
 
+        [Header(" ---- Mobile Mode ---- ")]
+        public bool isMobile_controls = false; //Use virtual joystick and buttons for mobile devices
+
+    [Header("---- Mobile Input Runtime ----")]
+    [HideInInspector] 
+    public Vector2 mobile_move;
+    [HideInInspector] public Vector2 mobile_freelook;
+
+    [HideInInspector] public bool mobile_action;
+    [HideInInspector] public bool mobile_attack;
+    [HideInInspector] public bool mobile_jump;
+    [HideInInspector] public bool mobile_craft;
+
+    [HideInInspector] public bool mobile_accept;
+    [HideInInspector] public bool mobile_cancel;
+    [HideInInspector] public bool mobile_pause;
+    [HideInInspector] public bool mobile_ui_select;
+    [HideInInspector] public bool mobile_ui_use;
+    [HideInInspector] public bool mobile_ui_cancel;
+
+            
+
+
         public delegate Vector2 MoveAction();
         public delegate bool PressAction();
 
@@ -104,6 +127,33 @@ namespace SurvivalEngine
             press_ui_select = false;
             press_ui_use = false;
             press_ui_cancel = false;
+
+
+
+
+
+
+            //Mobile input
+            // ---------------- MOBILE INPUT ----------------
+            if (isMobile_controls)
+            {
+                move += mobile_move;
+                freelook += mobile_freelook;
+
+                press_action |= mobile_action;
+                press_attack |= mobile_attack;
+                press_jump |= mobile_jump;
+                press_craft |= mobile_craft;
+
+                press_accept |= mobile_accept;
+                press_cancel |= mobile_cancel;
+                press_pause |= mobile_pause;
+
+                press_ui_select |= mobile_ui_select;
+                press_ui_use |= mobile_ui_use;
+                press_ui_cancel |= mobile_ui_cancel;
+            }
+            // ---------------- KEYBOARD INPUT ----------------
 
             Vector2 wasd = Vector2.zero;
             if (Input.GetKey(KeyCode.A))
@@ -250,6 +300,10 @@ namespace SurvivalEngine
         public static bool IsAnyGamePad()
         {
             return instance.IsGamePad();
+        }
+        public static Vector2 MobileMove()
+        {
+            return instance.mobile_move;
         }
 
         public static PlayerControls Get()

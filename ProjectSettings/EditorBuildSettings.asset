@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Survival/Scene/The Farmer's memory.unity
     guid: 9989e7e161a43442eb5ef3d274170550
+  - enabled: 1
+    path: Assets/SurvivalEngine/Scenes/Game/Forest.unity
+    guid: 222d2937e70fa38488a3313b978a7c62
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

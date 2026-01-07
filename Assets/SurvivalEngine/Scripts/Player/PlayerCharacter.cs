@@ -90,7 +90,7 @@ namespace SurvivalEngine
         private bool is_fronted = false;
         private bool is_busy = false;
         private bool is_sleep = false;
-
+        [SerializeField]
         private Vector3 controls_move;
         private Vector3 controls_freelook;
 
@@ -335,13 +335,17 @@ namespace SurvivalEngine
             sync_state.cam_dir = TheCamera.Get().GetFacingDir();
             sync_state.cam_pos = TheCamera.Get().transform.position;
             sync_state.cam_freelook = TheCamera.Get().IsFreelook();
-
+            
+            // bool joystick_active = false;
             bool joystick_active = joystick != null && joystick.IsActive();
             if (joystick_active && !character_craft.IsBuildMode())
                 controls_move += new Vector3(joystick.GetDir().x, 0f, joystick.GetDir().y);
             if (!controls.IsGamePad())
                 controls_freelook = Vector3.zero;
-
+            bool mobileController  = true;
+            if(mobileController)
+                controls_move += new Vector3(controls.mobile_move.x, 0f, controls.mobile_move.y);
+             
             //Rotate
             controls_move = TheCamera.Get().GetFacingRotation() * controls_move;
             controls_freelook = TheCamera.Get().GetFacingRotation() * controls_freelook;
