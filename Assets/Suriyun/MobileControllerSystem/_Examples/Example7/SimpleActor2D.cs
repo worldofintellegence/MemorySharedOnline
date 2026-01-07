@@ -3,52 +3,55 @@ using System.Collections.Generic;
 using UnityEngine;
 using Suriyun.MCS;
 using System;
+namespace Suriyun.MCS.Example
+{
+    public class SimpleActor2D : MonoBehaviour
+    {
 
-public class SimpleActor2D : MonoBehaviour {
+        // This script prioritize simplicity for educational purpose over performance.
 
-    // This script prioritize simplicity for educational purpose over performance.
+        public UniversalButton inputMove;
+        public UniversalButton inputAttack;
 
-    public UniversalButton inputMove;
-    public UniversalButton inputAttack;
+        public float moveSpeed;
 
-    public float moveSpeed;
+        protected Vector3 cachedInput;
+        protected SpriteRenderer sprite;
 
-    protected Vector3 cachedInput;
-    protected SpriteRenderer sprite;
-
-    protected virtual void Start() {
-        sprite = GetComponent<SpriteRenderer>();
-    }
-
-    protected virtual void Update() {
-        if (inputMove.isFingerDown) {
-            cachedInput = inputMove.direction;
-
-            if (cachedInput.x > 0) {
-                sprite.flipX = true;
-            }
-
-            if (cachedInput.x < 0) {
-                sprite.flipX = false;
-            }
-        } else {
-            cachedInput = Vector3.zero;
+        protected virtual void Start() {
+            sprite = GetComponent<SpriteRenderer>();
         }
 
-        transform.Translate(cachedInput * moveSpeed * Time.deltaTime);
-    }
+        protected virtual void Update() {
+            if (inputMove.isFingerDown) {
+                cachedInput = inputMove.direction;
 
-    #region === Event Handler ===
-    public virtual void OnEnable() {
-        inputAttack.onPointerDown.AddListener(Attack);
-    }
+                if (cachedInput.x > 0) {
+                    sprite.flipX = true;
+                }
 
-    public virtual void OnDisable() {
-        inputAttack.onPointerDown.RemoveListener(Attack);
-    }
+                if (cachedInput.x < 0) {
+                    sprite.flipX = false;
+                }
+            } else {
+                cachedInput = Vector3.zero;
+            }
 
-    public virtual void Attack(int btnId) {
-        Debug.Log("[logic] Attack : " + btnId);
+            transform.Translate(cachedInput * moveSpeed * Time.deltaTime);
+        }
+
+        #region === Event Handler ===
+        public virtual void OnEnable() {
+            inputAttack.onPointerDown.AddListener(Attack);
+        }
+
+        public virtual void OnDisable() {
+            inputAttack.onPointerDown.RemoveListener(Attack);
+        }
+
+        public virtual void Attack(int btnId) {
+            Debug.Log("[logic] Attack : " + btnId);
+        }
+        #endregion
     }
-    #endregion
 }

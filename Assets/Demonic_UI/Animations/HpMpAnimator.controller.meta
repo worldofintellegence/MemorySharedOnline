@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7a901f9d506538f4f84f8c14c76fbc76
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152412
+  packageName: Demonic UI 8k + icons
+  packageVersion: 1.0
+  assetPath: Assets/Demonic_UI/Animations/HpMpAnimator.controller
+  uploadId: 326807

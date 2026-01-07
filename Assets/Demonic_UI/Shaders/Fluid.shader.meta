@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 322f7b701d11fac4a8318fcf7976f544
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152412
+  packageName: Demonic UI 8k + icons
+  packageVersion: 1.0
+  assetPath: Assets/Demonic_UI/Shaders/Fluid.shader
+  uploadId: 326807

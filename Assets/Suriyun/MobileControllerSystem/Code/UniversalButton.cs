@@ -45,11 +45,11 @@ namespace Suriyun.MCS {
         public Vector3 rawDir;
         public float cancellerRadius;
         public AnimationCurve deadzoneCurve;
-       // [SerializeField]
+        // [SerializeField]
         public float horizontal {
             get { return direction.x; }
         }
-       // [SerializeField]
+        // [SerializeField]
         public float vertical {
             get { return direction.y; }
         }

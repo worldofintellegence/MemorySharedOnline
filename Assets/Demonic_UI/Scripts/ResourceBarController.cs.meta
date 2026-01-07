@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b199043ded446c74e831fcf9cf9dfbe1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152412
+  packageName: Demonic UI 8k + icons
+  packageVersion: 1.0
+  assetPath: Assets/Demonic_UI/Scripts/ResourceBarController.cs
+  uploadId: 326807

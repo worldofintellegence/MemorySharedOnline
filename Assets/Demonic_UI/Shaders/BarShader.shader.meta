@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c8450042b78ffd44381f810a99c769ee
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152412
+  packageName: Demonic UI 8k + icons
+  packageVersion: 1.0
+  assetPath: Assets/Demonic_UI/Shaders/BarShader.shader
+  uploadId: 326807

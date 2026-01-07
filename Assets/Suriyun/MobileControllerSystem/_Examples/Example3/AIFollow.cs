@@ -3,22 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class AIFollow : MonoBehaviour {
+namespace Suriyun.MCS.Example
+{
+    public class AIFollow : MonoBehaviour
+    {
 
-    protected NavMeshAgent agent;
-    public Transform target;
+        protected NavMeshAgent agent;
+        public Transform target;
 
-    protected void Start() {
-        agent = GetComponent<NavMeshAgent>();
+        protected void Start() {
+            agent = GetComponent<NavMeshAgent>();
+        }
+
+        public void SetTarget(Transform target) {
+            this.target = target;
+        }
+
+        protected void Update() {
+            agent.destination = target.position;
+            agent.isStopped = false;
+        }
+
     }
-
-    public void SetTarget(Transform target) {
-        this.target = target;
-    }
-
-    protected void Update() {
-        agent.destination = target.position;
-        agent.isStopped = false;
-    }
-
 }
