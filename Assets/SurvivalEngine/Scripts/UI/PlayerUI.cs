@@ -195,6 +195,15 @@ namespace SurvivalEngine {
             CraftPanel.Get()?.Toggle();
         }
 
+        public void OnClickCraftDelay()
+        {
+            this.Invoke(() =>
+            {
+                 CancelSelection();
+            CraftPanel.Get()?.Toggle();
+            }, 0.9f);
+          
+        }
         public void OnClickRevive()
         {
             revive_button.SetActive(false);
