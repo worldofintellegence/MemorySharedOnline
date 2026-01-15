@@ -3,8 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class UiManager : MonoBehaviour
 {
-    
 
+    void Start()
+    {
+        Debug.Log($"{Application.persistentDataPath}");
+    }
     public VideoUIPlayer playerVideo;
 
     public GameObject introScreen;

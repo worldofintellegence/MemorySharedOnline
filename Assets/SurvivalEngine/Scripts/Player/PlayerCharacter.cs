@@ -114,7 +114,6 @@ namespace SurvivalEngine
         private PlayerCharacterState sync_state = new PlayerCharacterState();
 
         private static List<PlayerCharacter> players_list = new List<PlayerCharacter>();
-
         protected override void Awake()
         {
             base.Awake();
@@ -148,6 +147,10 @@ namespace SurvivalEngine
                 mouse_controls.onRightClick += OnRightClick;
                 mouse_controls.onHold += OnMouseHold;
                 mouse_controls.onRelease += OnMouseRelease;
+                
+
+
+
             }
         }
 
