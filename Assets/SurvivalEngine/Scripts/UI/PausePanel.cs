@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace SurvivalEngine
@@ -48,7 +49,8 @@ namespace SurvivalEngine
 
         public void OnClickQuit()
         {
-            StartCoroutine(QuitRoutine());
+            SceneManager.LoadScene("Main");
+            // StartCoroutine(QuitRoutine());
         }
 
         private IEnumerator QuitRoutine()
