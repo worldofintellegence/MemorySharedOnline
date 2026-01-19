@@ -49,7 +49,7 @@ namespace SurvivalEngine
 
         public void OnClickQuit()
         {
-            SceneManager.LoadScene("Main");
+             SceneLoader.Instance.LoadScene("Main",true);
             // StartCoroutine(QuitRoutine());
         }
 

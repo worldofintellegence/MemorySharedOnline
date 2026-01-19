@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using Unity.Netcode;
 public class SceneLoader : MonoBehaviour
 {
     public static SceneLoader Instance;
@@ -26,9 +26,23 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(FadeIn());
     }
 
-    public void LoadScene(string sceneName)
+    public void LoadScene(string sceneName, bool isAdditive = false)
     {
+
+        if (isAdditive)
+        {
+            NetworkManager  network =   FindAnyObjectByType<NetworkManager>();
+            if (network != null)
+            {
+                Destroy(network.gameObject);
+            }
+        }
+
+
         StartCoroutine(LoadRoutine(sceneName));
+
+
+
     }
 
     private IEnumerator LoadRoutine(string scene)
