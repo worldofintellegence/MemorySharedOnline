@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Survival/Scene/Main.unity
+    path: Assets/Memory Shared Online/Scene/Main.unity
     guid: 23905b4e2da9242b889e123be2f7f637
   - enabled: 1
-    path: Assets/Survival/Scene/The Farmer's memory.unity
+    path: Assets/Memory Shared Online/Scene/The Farmer's memory.unity
     guid: 9989e7e161a43442eb5ef3d274170550
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
