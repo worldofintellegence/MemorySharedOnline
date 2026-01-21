@@ -30,6 +30,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4cafd98656786724a868a2434d92eb95, type: 2}
   craft_fillers: []
   craft_requirements: []
+  craft_xp: 0
+  craft_xp_type: 
   craft_sound: {fileID: 8300000, guid: a959259a1dc64384291aa531cc0f73b1, type: 3}
   type: 20
   inventory_max: 1
@@ -44,6 +46,7 @@ MonoBehaviour:
   damage: 0
   range: 0
   attack_speed: 0
+  attack_cooldown: 1
   strike_per_attack: 0
   strike_interval: 0
   eat_hp: 0
@@ -55,12 +58,11 @@ MonoBehaviour:
   actions:
   - {fileID: 11400000, guid: 15af810dc6fe6b746b53fcc59374e103, type: 2}
   - {fileID: 11400000, guid: d2e00df561181024d9d85af8d6b9c5bc, type: 2}
+  buy_cost: 1
+  sell_cost: 1
   container_data: {fileID: 0}
-  plant_data: {fileID: 0}
-  construction_data: {fileID: 0}
+  build_data: {fileID: 0}
   projectile_group: {fileID: 0}
-  item_prefab: {fileID: 7559119850931188608, guid: d0b32a33db697824e85c032199767e60,
-    type: 3}
-  equipped_prefab: {fileID: 2427690967008982650, guid: b8e8ac4d2a7e9544b883d59f25ee0d06,
-    type: 3}
+  item_prefab: {fileID: 7559119850931188608, guid: d0b32a33db697824e85c032199767e60, type: 3}
+  equipped_prefab: {fileID: 2427690967008982650, guid: b8e8ac4d2a7e9544b883d59f25ee0d06, type: 3}
   projectile_prefab: {fileID: 0}

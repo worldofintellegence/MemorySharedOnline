@@ -154,7 +154,7 @@ namespace SurvivalEngine
         public void OnClickPause()
         {
             PausePanel.Get().Toggle();
-            TheAudio.Get().PlaySFX("UI", ui_sound);
+            // TheAudio.Get().PlaySFX("UI", ui_sound);
         }
 
         public bool IsGameOver()

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: blueberry
   title: Blueberries
-  icon: {fileID: 21300000, guid: 59ebc5c76ab843ecaa8e995d1f4bd58e, type: 3}
+  icon: {fileID: 21300000, guid: 7d0d0be5e4a707f4ba8c0e787724e40b, type: 3}
   desc: Edible and sweet.
   groups:
   - {fileID: 11400000, guid: 0dc5bbfd6c93e0448b60c4076499883f, type: 2}
@@ -55,14 +55,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 303f8b2db86c0064aa7067d5332c4658, type: 2}
   - {fileID: 11400000, guid: c940e7d1134ced948824248625884a12, type: 2}
   - {fileID: 11400000, guid: d2e00df561181024d9d85af8d6b9c5bc, type: 2}
-  buy_cost: 2
-  sell_cost: 2
+  buy_cost: 1
+  sell_cost: 1
   container_data: {fileID: 0}
-  plant_data: {fileID: 0}
-  construction_data: {fileID: 0}
-  character_data: {fileID: 0}
+  build_data: {fileID: 0}
   projectile_group: {fileID: 0}
-  item_prefab: {fileID: 1954516220302997016, guid: 19125304b5f3435b9f92fd9ba9599f9d,
-    type: 3}
+  item_prefab: {fileID: 1954516220302997016, guid: 19125304b5f3435b9f92fd9ba9599f9d, type: 3}
   equipped_prefab: {fileID: 0}
   projectile_prefab: {fileID: 0}
