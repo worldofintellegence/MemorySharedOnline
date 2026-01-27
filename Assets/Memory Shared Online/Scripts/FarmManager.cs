@@ -2,28 +2,22 @@ using UnityEngine;
 
 public class FarmManager : MonoBehaviour
 {
-        public GameObject healthBarCanvas;
+    public GameObject healthBarCanvas;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        if (Application.isBatchMode)
+            return; // Dedicated Server, UI skip
 
-        this.Invoke(() =>
-        {
-        Transform playerTransform = GameObject.FindWithTag("Player").transform;
-
-             if (healthBarCanvas != null && playerTransform != null)
-                {
-                    Instantiate(healthBarCanvas, playerTransform);
-                }
-        },2.5f);
-                
-               
+        Invoke(nameof(SpawnHealthBar), 2.5f);
     }
 
-    // Update is called once per frame
-    void Update()
+    void SpawnHealthBar()
     {
-        
+        GameObject player = GameObject.FindWithTag("Player");
+        if (player == null || healthBarCanvas == null)
+            return;
+
+        Instantiate(healthBarCanvas, player.transform);
     }
 }

@@ -220,7 +220,7 @@ namespace NetcodePlus
             if (!auth.IsConnected())
                 return; //Not logged in
 
-            Debug.Log("Join Game: " + server_url);
+            Debug.Log("Join Game: " + server_url + " Port: " + port + " Is Host: " + is_host);
             ResetValues();
             server_type = ServerType.None; //Unknown, could be dedicated or peer2peer
             connection.user_id = auth.UserID;

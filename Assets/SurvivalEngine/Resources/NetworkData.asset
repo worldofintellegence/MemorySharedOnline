@@ -12,18 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b0e7c39b760a64da9c3da0140c2a9d, type: 3}
   m_Name: NetworkData
   m_EditorClassIdentifier: 
-  game_port: 7700
+  game_port: 7777
   players_max: 8
-  solo_type: 10
-  player_default: {fileID: 6778699993473853970, guid: 35721d40c53744f4b945769b3cf3965b,
-    type: 3}
+  solo_type: 0
+  player_default: {fileID: 6778699993473853970, guid: 35721d40c53744f4b945769b3cf3965b, type: 3}
   network_prefabs: []
   lobby_type: 0
-  lobby_host: server.survival-engine.com
+  lobby_host: 157.230.157.137
   lobby_port: 7800
   lobby_game_type: 10
   lobby_rooms_max: 10
-  game_port_min: 7701
+  game_port_min: 7777
   game_port_max: 7799
   game_path_windows: ../ServerGame/SurvivalEngineOnline.exe
   game_path_linux: /server/game/ServerGame.x86_64
