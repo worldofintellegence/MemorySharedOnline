@@ -123,7 +123,8 @@ MonoBehaviour:
   attack_center: {fileID: 0}
   hp_bar: {fileID: 0}
   hit_fx: {fileID: 0}
-  death_fx: {fileID: 1782698244953427790, guid: cc10862cc8c3185468a39f6726d9739a, type: 3}
+  death_fx: {fileID: 1782698244953427790, guid: cc10862cc8c3185468a39f6726d9739a,
+    type: 3}
   hit_sound: {fileID: 0}
   death_sound: {fileID: 8300000, guid: 9dc750595ba1c9f40a56855b46944b70, type: 3}
 --- !u!114 &3536841273506863698
@@ -240,7 +241,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 900ef4105bf58584abe25a21d23a6e05, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
+      propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: bf43f20c9fd921343a6883a952f460d5, type: 2}
     m_RemovedComponents: []
@@ -250,6 +251,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 900ef4105bf58584abe25a21d23a6e05, type: 3}
 --- !u!4 &4545744376830811206 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 900ef4105bf58584abe25a21d23a6e05, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 900ef4105bf58584abe25a21d23a6e05,
+    type: 3}
   m_PrefabInstance: {fileID: 4545744376830936774}
   m_PrefabAsset: {fileID: 0}

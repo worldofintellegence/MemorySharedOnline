@@ -58,11 +58,13 @@ MonoBehaviour:
   actions:
   - {fileID: 11400000, guid: 15af810dc6fe6b746b53fcc59374e103, type: 2}
   - {fileID: 11400000, guid: d2e00df561181024d9d85af8d6b9c5bc, type: 2}
-  buy_cost: 1
-  sell_cost: 1
+  buy_cost: 0
+  sell_cost: 0
   container_data: {fileID: 0}
   build_data: {fileID: 0}
   projectile_group: {fileID: 0}
-  item_prefab: {fileID: 2315138843009706519, guid: 7920fcd4169c8a641ba11be663eba75a, type: 3}
-  equipped_prefab: {fileID: 9167907801928786419, guid: a6af0e9bd92156342b3033e1b395493d, type: 3}
+  item_prefab: {fileID: 2315138843009706519, guid: 7920fcd4169c8a641ba11be663eba75a,
+    type: 3}
+  equipped_prefab: {fileID: 9167907801928786419, guid: a6af0e9bd92156342b3033e1b395493d,
+    type: 3}
   projectile_prefab: {fileID: 0}

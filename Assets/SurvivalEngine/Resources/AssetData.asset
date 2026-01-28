@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67cad17d84f07eb4f8d175266cb55f18, type: 3}
   m_Name: AssetData
   m_EditorClassIdentifier: 
-  ui_canvas: {fileID: 2018194449844094524, guid: 9de22ac680ab3784c889024a6adc2f0c,
+  ui_canvas: {fileID: 2018194449844094524, guid: 1a2717deabdfe2149b0189a128c1df8a,
     type: 3}
   ui_canvas_mobile: {fileID: 2018194449844094524, guid: 1a2717deabdfe2149b0189a128c1df8a,
     type: 3}

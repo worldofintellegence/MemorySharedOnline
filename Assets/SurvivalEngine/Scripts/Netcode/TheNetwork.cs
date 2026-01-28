@@ -220,14 +220,15 @@ namespace NetcodePlus
             if (!auth.IsConnected())
                 return; //Not logged in
 
-            Debug.Log("Join Game: " + server_url + " Port: " + port + " Is Host: " + is_host);
+            Debug.Log("Join Game: " + server_url + " Port: " + port + " Is Host: " + is_host)   ;
             ResetValues();
             server_type = ServerType.None; //Unknown, could be dedicated or peer2peer
             connection.user_id = auth.UserID;
             connection.username = auth.Username;
             connection.is_host = is_host;
 
-            string ip = NetworkTool.HostToIP(server_url);
+            // string ip = NetworkTool.HostToIP(server_url);
+            string ip = NetworkTool.HostToIP("157.230.157.137");
             transport.SetConnectionData(ip, port);
             network.NetworkConfig.ConnectionData = NetworkTool.NetSerialize(connection);
 

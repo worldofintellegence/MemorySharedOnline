@@ -14,7 +14,6 @@ namespace SurvivalEngine
     /// Author: Indie Marc (Marc-Antoine Desbiens)
     /// </summary>
 
-    [DefaultExecutionOrder(-1)]
     public class TheGame : SMonoBehaviour
     {
         //non-static UnityActions only work in a game scene that uses TheGame.cs
@@ -40,28 +39,15 @@ namespace SurvivalEngine
 
         private SNetworkActions actions;
 
-        private List<string> remove_items_uid = new List<string>();
-        private List<BonusType> remove_bonus_list = new List<BonusType>();
-        private List<RegrowthData> spawn_growth_list = new List<RegrowthData>();
-
-        private static TheGame instance;
+        private static TheGame _instance;
 
         protected override void Awake()
         {
             base.Awake();
-            instance = this;
-            Application.targetFrameRate = 120;
-
+            _instance = this;
             PlayerData.LoadLast();
             WorldData.LoadLast();
             SettingData.LoadLast();
-        }
-
-        protected override void OnDestroy()
-        {
-            base.OnDestroy();
-            instance = null;
-            Selectable.ClearAll();
         }
 
         protected override void OnReady()
@@ -69,12 +55,8 @@ namespace SurvivalEngine
             //Actions
             actions = new SNetworkActions(1); //Use custom NetworkID 1 for this action since it doesnt have a NetworkObject attached
             actions.RegisterRefresh(RefreshType.GameTime, ReceiveRefresh, NetworkDelivery.Unreliable);
-            actions.Register(ActionType.Transition, OnTransition);
-            actions.Register(ActionType.TransitionScene, OnTransitionScene);
-        }
+            actions.RegisterFloat(ActionType.Transition, OnTransition);
 
-        protected override void OnAfterReady()
-        {
             //Set current scene
             WorldData pdata = WorldData.Get();
             string scene = SceneNav.GetCurrentScene();
@@ -85,6 +67,7 @@ namespace SurvivalEngine
             //New game
             if (pdata.IsNewGame())
             {
+                pdata.play_time = 0.01f; //Initialize play time to 0.01f to make sure onStartNewGame never get called again
                 onStartNewGame?.Invoke(); //New Game!
             }
 
@@ -206,7 +189,7 @@ namespace SurvivalEngine
         private void UpdateDurability(float game_hours)
         {
             WorldData wdata = WorldData.Get();
-            remove_items_uid.Clear();
+            List<string> remove_items_uid = new List<string>();
 
             //Dropped
             foreach (KeyValuePair<string, DroppedItemData> pair in wdata.dropped_items)
@@ -274,7 +257,7 @@ namespace SurvivalEngine
             //Timed bonus
             foreach (KeyValuePair <int, PlayerData> pcdata in WorldData.Get().players)
             {
-                remove_bonus_list.Clear();
+                List<BonusType> remove_bonus_list = new List<BonusType>();
                 foreach (KeyValuePair<BonusType, TimedBonusData> pair in pcdata.Value.timed_bonus_effects)
                 {
                     TimedBonusData bdata = pair.Value;
@@ -289,7 +272,7 @@ namespace SurvivalEngine
             }
 
             //World regrowth
-            spawn_growth_list.Clear();
+            List<RegrowthData> spawn_growth_list = new List<RegrowthData>();
             foreach (KeyValuePair<string, RegrowthData> pair in WorldData.Get().world_regrowth)
             {
                 RegrowthData bdata = pair.Value;
@@ -304,6 +287,7 @@ namespace SurvivalEngine
                 Regrowth.SpawnRegrowth(regrowth);
                 WorldData.Get().RemoveWorldRegrowth(regrowth.uid);
             }
+            spawn_growth_list.Clear();
         }
 
         public float GetTimestamp()
@@ -315,8 +299,7 @@ namespace SurvivalEngine
         public bool IsNight()
         {
             WorldData pdata = WorldData.Get();
-            GameData gdata = GameData.Get();
-            return pdata.day_time >= gdata.end_day_time || pdata.day_time < gdata.start_day_time;
+            return pdata.day_time >= 18f || pdata.day_time < 6f;
         }
 
         public bool IsWeather(WeatherEffect effect)
@@ -408,8 +391,8 @@ namespace SurvivalEngine
 
         private IEnumerator GoToSceneRoutine(string scene, string entry)
         {
-            actions?.SetTarget(ActionType.TransitionScene, NetworkActionTarget.All);
-            actions?.Trigger(ActionType.TransitionScene);
+            actions?.SetTarget(ActionType.Transition, NetworkActionTarget.All);
+            actions?.Trigger(ActionType.Transition, 20f);
             yield return new WaitForSeconds(1f);
             GoToScene(scene, entry);
         }
@@ -452,7 +435,7 @@ namespace SurvivalEngine
                 yield break;
 
             actions?.SetTarget(ActionType.Transition, NetworkActionTarget.Single, client.client_id);
-            actions?.Trigger(ActionType.Transition);
+            actions?.Trigger(ActionType.Transition, 1.5f);
             zone.ResetTimer(); //Reset timer to avoid teleporting again
 
             yield return new WaitForSeconds(0.7f);
@@ -462,30 +445,18 @@ namespace SurvivalEngine
             character.Teleport(pos);
         }
 
-        private void OnTransition()
+        private void OnTransition(float duration)
         {
-            StartCoroutine(OnTransitionRun());
+            StartCoroutine(OnTransitionRun(duration));
         }
         
-        private IEnumerator OnTransitionRun()
+        private IEnumerator OnTransitionRun(float duration)
         {
             BlackPanel.Get().Show();
 
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(duration);
 
             BlackPanel.Get().Hide();
-        }
-
-
-        private void OnTransitionScene()
-        {
-            StartCoroutine(OnTransitionSceneRun());
-        }
-
-        private IEnumerator OnTransitionSceneRun()
-        {
-            yield return new WaitForSeconds(0.1f);
-            BlackPanel.Get().Show();
         }
 
         // ----- Next day -----
@@ -673,6 +644,54 @@ namespace SurvivalEngine
             WorldData.Delete(filename);
         }
 
+        //--------
+
+        public async Task<bool> SaveCloud(string filename)
+        {
+            if (!SaveTool.IsValidFilename(filename))
+                return false; //Failed
+
+            BeforeSave(filename);
+
+            PlayerData pdata = PlayerData.GetLoaded();
+            WorldData wdata = WorldData.Get();
+            await pdata.SaveCloud(filename);
+            await wdata.SaveCloud(filename);
+            return true;
+        }
+
+        public static async Task<bool> LoadCloud(string filename)
+        {
+            if (!TheNetwork.Get().IsServer)
+                return false;
+
+            if (!SaveTool.IsValidFilename(filename))
+                return false; //Failed
+
+            Debug.Log("Load Game: " + filename);
+            WorldData wdata = await WorldData.LoadCloud(filename);
+            if (wdata == null)
+                return false;
+
+            AfterLoad();
+
+            TheNetwork.Get().LoadScene(WorldData.Get().scene);
+            return true;
+        }
+
+        public static async Task<bool> NewOrLoadCloud(string filename, string scene)
+        {
+            if (!TheNetwork.Get().IsServer)
+                return false;
+
+            bool loaded = await LoadCloud(filename);
+
+            if (loaded)
+                return true;
+
+            return NewGame(filename, scene);
+        }
+
         //---------
 
         private void BeforeSave(string filename)
@@ -718,20 +737,20 @@ namespace SurvivalEngine
         public static bool IsValid()
         {
             //Game is valid if SaveData is loaded and game scene is loaded
-            return instance != null && WorldData.Get() != null;
+            return _instance != null && WorldData.Get() != null;
         }
 
         //Use this instead of Get() when calling from Awake function
         public static TheGame Find()
         {
-            if (instance == null)
-                instance = FindObjectOfType<TheGame>();
-            return instance;
+            if (_instance == null)
+                _instance = FindObjectOfType<TheGame>();
+            return _instance;
         }
 
         public static TheGame Get()
         {
-            return instance;
+            return _instance;
         }
     }
 

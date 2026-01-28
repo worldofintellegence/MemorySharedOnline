@@ -573,7 +573,7 @@ namespace SurvivalEngine
         {
             for (int i = 0; i < max_players; i++)
             {
-                if (!players.ContainsKey(i) || string.IsNullOrEmpty(players[i].user_id))
+                if (!players.ContainsKey(i))
                 {
                     PlayerData cdata = new PlayerData(i);
                     cdata.user_id = user_id;
@@ -609,7 +609,7 @@ namespace SurvivalEngine
 
         public bool IsNewGame()
         {
-            return day == 1 && new_day;
+            return play_time < 0.0001f;
         }
 
         public float GetTotalTime()
@@ -650,6 +650,61 @@ namespace SurvivalEngine
             narrative_data = ndata;
         }
 #endif
+
+        //---- Save / Load Cloud ----
+
+        public async Task SaveCloud(string filename)
+        {
+            await SaveCloud(filename, this);
+        }
+
+        public static async Task SaveCloud(string filename, WorldData data)
+        {
+            if (!string.IsNullOrEmpty(filename) && data != null)
+            {
+                filename = filename.ToLower();
+                data.filename = filename;
+                data.last_save = DateTime.Now;
+                data.version = Application.version;
+                loaded_data = data;
+                loaded_file = filename;
+
+                await CloudSaveTool.SaveWorld(filename, data);
+            }
+        }
+
+        public static async Task<WorldData> LoadCloud(string filename)
+        {
+            filename = filename.ToLower();
+            if (loaded_data == null || loaded_file != filename)
+            {
+                loaded_file = "";
+                loaded_data = await CloudSaveTool.LoadWorld(filename);
+                if (loaded_data != null)
+                {
+                    loaded_file = filename;
+                    loaded_data.filename = filename;
+                    loaded_data.FixData();
+                }
+            }
+            return loaded_data;
+        }
+
+        public static async Task<WorldData> NewOrLoadCloud(string filename, string scene)
+        {
+            if (!SaveTool.IsValidFilename(filename))
+                return null;
+            Unload();
+            loaded_data = await LoadCloud(filename);
+            if (loaded_data == null)
+                loaded_data = NewGame(filename, scene);
+            return loaded_data;
+        }
+
+        public static async Task DeleteCloud(string filename)
+        {
+            await CloudSaveTool.DeleteWorld(filename);
+        }
 
         //--- Save / load -----
 

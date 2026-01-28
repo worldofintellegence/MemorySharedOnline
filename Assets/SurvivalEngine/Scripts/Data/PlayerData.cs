@@ -51,7 +51,7 @@ namespace SurvivalEngine
         public const string extension = ".player";
         public const string last_save_id = "last_save_player";
 
-        public PlayerData(int id) { filename = user_id = username = ""; player_id = id; FixData(); }
+        public PlayerData(int id) { filename = user_id = username = "player"; player_id = id; FixData(); }
         public PlayerData(string f) { filename = f.ToLower(); user_id = f; username = f; FixData(); }
 
         public void FixData()
@@ -466,6 +466,59 @@ namespace SurvivalEngine
             return wdata != null && wdata.scene == scene && wdata.world_id == world;
         }
 
+        //---- Save / Load Cloud ----
+
+        public async Task SaveCloud(string filename)
+        {
+            await SaveCloud(filename, this);
+        }
+
+        public static async Task SaveCloud(string filename, PlayerData data)
+        {
+            if (!string.IsNullOrEmpty(filename) && data != null)
+            {
+                filename = filename.ToLower();
+                data.filename = filename;
+                loaded_data = data;
+                loaded_file = filename;
+
+                await CloudSaveTool.SavePlayer(filename, data);
+            }
+        }
+
+        public static async Task<PlayerData> LoadCloud(string filename)
+        {
+            filename = filename.ToLower();
+            if (loaded_data == null || loaded_file != filename)
+            {
+                loaded_file = "";
+                loaded_data = await CloudSaveTool.LoadPlayer(filename);
+                if (loaded_data != null)
+                {
+                    loaded_file = filename;
+                    loaded_data.filename = filename;
+                    loaded_data.FixData();
+                }
+            }
+            return loaded_data;
+        }
+
+        public static async Task<PlayerData> NewOrLoadCloud(string filename)
+        {
+            if (!SaveTool.IsValidFilename(filename))
+                return null;
+            Unload();
+            loaded_data = await LoadCloud(filename);
+            if (loaded_data == null)
+                loaded_data = NewGame(filename);
+            return loaded_data;
+        }
+
+        public static async Task DeleteCloud(string filename)
+        {
+            await CloudSaveTool.DeletePlayer(filename);
+        }
+
         //--- Save / load -----
 
         public void Save()
@@ -629,17 +682,15 @@ namespace SurvivalEngine
 
         public static PlayerData Get(int player_id)
         {
-            WorldData wdata = WorldData.Get();
-            if (wdata != null && player_id >= 0)
-                return wdata.GetPlayer(player_id);
+            if(player_id >= 0)
+                return WorldData.Get().GetPlayer(player_id);
             return null;
         }
 
         public static PlayerData Get(string user_id)
         {
-            WorldData wdata = WorldData.Get();
-            if (wdata != null && !string.IsNullOrEmpty(user_id))
-                return wdata.GetPlayer(user_id);
+            if (!string.IsNullOrEmpty(user_id))
+                return WorldData.Get().GetPlayer(user_id);
             return null;
         }
 

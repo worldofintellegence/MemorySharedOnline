@@ -63,6 +63,8 @@ MonoBehaviour:
   container_data: {fileID: 0}
   build_data: {fileID: 0}
   projectile_group: {fileID: 0}
-  item_prefab: {fileID: 2315138843009706519, guid: af03216bd860e2c4486102f4f3e51a2d, type: 3}
-  equipped_prefab: {fileID: 9167907801928786419, guid: fecadec8a2a126e41b9a72c34542ea33, type: 3}
+  item_prefab: {fileID: 2315138843009706519, guid: af03216bd860e2c4486102f4f3e51a2d,
+    type: 3}
+  equipped_prefab: {fileID: 9167907801928786419, guid: fecadec8a2a126e41b9a72c34542ea33,
+    type: 3}
   projectile_prefab: {fileID: 0}

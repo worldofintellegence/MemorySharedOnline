@@ -58,8 +58,11 @@ MonoBehaviour:
   buy_cost: 1
   sell_cost: 1
   container_data: {fileID: 0}
-  build_data: {fileID: 0}
+  plant_data: {fileID: 0}
+  construction_data: {fileID: 0}
+  character_data: {fileID: 0}
   projectile_group: {fileID: 0}
-  item_prefab: {fileID: 857163807389617463, guid: 05af0e92abec2174b8079e8c4f3b0716, type: 3}
+  item_prefab: {fileID: 857163807389617463, guid: 05af0e92abec2174b8079e8c4f3b0716,
+    type: 3}
   equipped_prefab: {fileID: 0}
   projectile_prefab: {fileID: 0}
