@@ -54,11 +54,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c940e7d1134ced948824248625884a12, type: 2}
   - {fileID: 11400000, guid: d2e00df561181024d9d85af8d6b9c5bc, type: 2}
   buy_cost: 0
-  sell_cost: 0
+  sell_cost: 5
   container_data: {fileID: 0}
-  plant_data: {fileID: 0}
-  construction_data: {fileID: 0}
-  character_data: {fileID: 0}
+  build_data: {fileID: 0}
   projectile_group: {fileID: 0}
   item_prefab: {fileID: 2007343269848344843, guid: 54fb998731bd971408d2892ef30f1eee,
     type: 3}
