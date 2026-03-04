@@ -132,6 +132,7 @@ namespace SurvivalEngine
 
         public void OnClickJoin()
         {
+            SoundManager.instance.stopBGSound();
             JoinGame(join_user.text, join_host.text, join_character.GetSelectedValue());
         }
 

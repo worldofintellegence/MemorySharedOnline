@@ -4367,7 +4367,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137166368}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -4385,6 +4385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   fadeGroup: {fileID: 137166369}
   fadeDuration: 0.4
+  previousSceneName: 
 --- !u!114 &137166371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12631,8 +12632,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 491749699}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &374830762
@@ -16436,7 +16436,7 @@ Transform:
   m_Children:
   - {fileID: 2129665329}
   - {fileID: 93309627}
-  m_Father: {fileID: 374264525}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &491749700
 MonoBehaviour:
@@ -42941,6 +42941,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 141955693127063707, guid: 69aadd5a530e23f43b486b47bbc50b81,
         type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 141955693127063707, guid: 69aadd5a530e23f43b486b47bbc50b81,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -68022,4 +68027,5 @@ SceneRoots:
   - {fileID: 1800930207}
   - {fileID: 233485658}
   - {fileID: 137166374}
+  - {fileID: 491749699}
   - {fileID: 374264525}

@@ -160,6 +160,9 @@ namespace SurvivalEngine
 
         private void SlowUpdate()
         {
+            // Fix 3: Most critical null check
+             if (WorldData.Get() == null || actions == null)
+                return;
             RefreshGameTime gtime = new RefreshGameTime(WorldData.Get().day, WorldData.Get().day_time);
             actions.Refresh(RefreshType.GameTime, gtime);
         }
@@ -168,6 +171,7 @@ namespace SurvivalEngine
         {
             if (!TheNetwork.Get().IsClient)
                 return;
+                Debug.Log($"Client Update: Day {WorldData.Get().day}, Time {WorldData.Get().day_time}");
 
             //Set music
             AudioClip[] music_playlist = AssetData.Get().music_playlist;

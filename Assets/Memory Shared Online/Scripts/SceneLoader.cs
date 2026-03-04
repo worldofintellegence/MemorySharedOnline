@@ -8,7 +8,7 @@ public class SceneLoader : MonoBehaviour
 
     [SerializeField] private CanvasGroup fadeGroup;
     [SerializeField] private float fadeDuration = 0.4f;
-
+public string previousSceneName = "";
     private void Awake()
     {
         if (Instance != null)
@@ -37,7 +37,7 @@ public class SceneLoader : MonoBehaviour
                 Destroy(network.gameObject);
             }
         }
-
+        previousSceneName = SceneManager.GetActiveScene().name;
 
         StartCoroutine(LoadRoutine(sceneName));
 
@@ -45,6 +45,10 @@ public class SceneLoader : MonoBehaviour
 
     }
 
+    public void BackToMenu()
+    {
+        StartCoroutine(LoadRoutine(previousSceneName));
+    }
     private IEnumerator LoadRoutine(string scene)
     {
         yield return FadeOut();

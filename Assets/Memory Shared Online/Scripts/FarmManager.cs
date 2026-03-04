@@ -4,6 +4,13 @@ public class FarmManager : MonoBehaviour
 {
     public GameObject healthBarCanvas;
 
+    public static FarmManager Instance { get; private set; }
+    void Awake()
+    {
+        Instance = this;
+    }
+
+
     void Start()
     {
         if (Application.isBatchMode)
