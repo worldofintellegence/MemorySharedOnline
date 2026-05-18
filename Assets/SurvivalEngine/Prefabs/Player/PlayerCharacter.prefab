@@ -647,6 +647,7 @@ GameObject:
   - component: {fileID: 7758095631771425270}
   - component: {fileID: 5074468419973997514}
   - component: {fileID: 6230693821447008659}
+  - component: {fileID: -912577724485619893}
   m_Layer: 6
   m_Name: PlayerCharacter
   m_TagString: Player
@@ -679,10 +680,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6778699993473853970}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 100
-  m_Drag: 10
-  m_AngularDrag: 10
+  m_LinearDamping: 10
+  m_AngularDamping: 10
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -755,6 +756,7 @@ MonoBehaviour:
   action_ui: 1
   sync_refresh_rate: 0.05
   sync_interpolate: 5
+  controls_move: {x: 0, y: 0, z: 0}
 --- !u!114 &114041981684017238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -948,6 +950,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 324c5cab76f6f6b43b18e0dafe4a6c5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-912577724485619893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6778699993473853970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2a835e2920d7d14382f0f821d85ef93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueQuests.Actor
+  data: {fileID: 11400000, guid: 1037792111251f442853e5d45ad40b10, type: 2}
+  trigger_range: 2
+  show_chat: 0
+  show_interact: 0
+  icon_offset: {x: 0, y: 0, z: 0}
+  icon_size: 1
+  player_id: -1
+  auto_interact_enabled: 1
 --- !u!1 &7021980908147701056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,27 +1798,27 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 882959a608133e9459561a6644fa695d, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 111ed6dc96911a94eabec6d34b63680b, type: 2}
     - target: {fileID: 13700000, guid: 882959a608133e9459561a6644fa695d, type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: e68130d4224d2de4395834d54507deca, type: 2}
     - target: {fileID: 13700000, guid: 882959a608133e9459561a6644fa695d, type: 3}
-      propertyPath: m_Materials.Array.data[2]
+      propertyPath: 'm_Materials.Array.data[2]'
       value: 
       objectReference: {fileID: 2100000, guid: 18b631b24dc608245a4a606c376a28c3, type: 2}
     - target: {fileID: 13700000, guid: 882959a608133e9459561a6644fa695d, type: 3}
-      propertyPath: m_Materials.Array.data[3]
+      propertyPath: 'm_Materials.Array.data[3]'
       value: 
       objectReference: {fileID: 2100000, guid: 611d723d798485a45865e6adc55c5f49, type: 2}
     - target: {fileID: 13700000, guid: 882959a608133e9459561a6644fa695d, type: 3}
-      propertyPath: m_Materials.Array.data[4]
+      propertyPath: 'm_Materials.Array.data[4]'
       value: 
       objectReference: {fileID: 2100000, guid: 111ed6dc96911a94eabec6d34b63680b, type: 2}
     - target: {fileID: 13700000, guid: 882959a608133e9459561a6644fa695d, type: 3}
-      propertyPath: m_Materials.Array.data[5]
+      propertyPath: 'm_Materials.Array.data[5]'
       value: 
       objectReference: {fileID: 2100000, guid: 0edbdc80592f26648bfd39e8158aff2b, type: 2}
     m_RemovedComponents: []

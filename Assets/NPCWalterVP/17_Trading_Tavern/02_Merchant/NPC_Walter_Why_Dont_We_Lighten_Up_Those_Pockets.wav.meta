@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 028fe25a3bd99f048a09bd0af4130fa7
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299132
+  packageName: Walter - Senior NPC Character Voice Pack
+  packageVersion: 1.0
+  assetPath: Assets/NPCWalterVP/17_Trading_Tavern/02_Merchant/NPC_Walter_Why_Dont_We_Lighten_Up_Those_Pockets.wav
+  uploadId: 699830
