@@ -22,7 +22,7 @@ namespace Suriyun.MCS.Example
 
         public bool isDamage, isSummon;
 
-          
+
         public float rotationSpeed;
 
         public float size0;
@@ -30,13 +30,27 @@ namespace Suriyun.MCS.Example
 
         protected float boxHeight;
 
-        private void Start() {
-            this.transform.localScale = Vector3.one * size0;
+        //public GameObject summonPrefab;
+        public CraftData summonPrefab;
 
-            StartCoroutine("DamageRoutine");
+        private void Start()
+        {
+            this.transform.localScale = Vector3.one * size0;
+            if (isDamage)
+            {
+                StartCoroutine("DamageRoutine");
+            }
+
+            if (isSummon)
+            {
+                StartCoroutine("SummonRoutine");
+
+                //Instantiate(summonPrefab, this.transform.position, Quaternion.identity);
+            }
         }
 
-        private void Update() {
+        private void Update()
+        {
             transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
             transform.localScale = transform.localScale - Vector3.one * sizeDecaySpeed * Time.deltaTime;
 
@@ -48,7 +62,8 @@ namespace Suriyun.MCS.Example
                 transform.position.z
                 );
 
-            if (transform.localScale.x < 0.01f) {
+            if (transform.localScale.x < 0.01f)
+            {
                 Destroy(this.gameObject);
             }
         }
@@ -71,21 +86,27 @@ namespace Suriyun.MCS.Example
 
         public void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.tag == "Enemy")    
+            if (other.gameObject.tag == "Enemy")
             {
                 AttackTarget target = other.GetComponent<AttackTarget>();
                 target.TakeDamage(damage);
-
             }
-            
         }
 
         public IEnumerator DamageRoutine()
         {
-           yield return new WaitForSeconds(0.2f);
-           area.enabled = false; 
+            yield return new WaitForSeconds(0.2f);
+            area.enabled = false;
         }
 
+        public IEnumerator SummonRoutine()
+        {
+            yield return new WaitForSeconds(0.2f);
+            PlayerCharacter character = PlayerCharacter.Get();
+            GameObject summon = CraftData.Create(summonPrefab, this.transform.position);
+            Pet pet = summon.GetComponent<Pet>();
+            pet.TamePet(character);
+        }
         #endregion
     }
 }

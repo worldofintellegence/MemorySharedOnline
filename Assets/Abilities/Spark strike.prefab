@@ -47,11 +47,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db29e0159160b54da09d616a2eeaa3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Suriyun.MCS.Example.Ability
-  isDamage: 0
+  isDamage: 1
   isSummon: 0
   rotationSpeed: 0
   size0: 1
   sizeDecaySpeed: 0
+  summonPrefab: {fileID: 0}
   area: {fileID: 473106029872505855}
   damageType: 0
   damage: 50

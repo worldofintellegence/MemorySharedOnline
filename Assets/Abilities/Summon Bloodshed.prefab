@@ -46,9 +46,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db29e0159160b54da09d616a2eeaa3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Suriyun.MCS.Example.Ability
+  isDamage: 0
+  isSummon: 1
   rotationSpeed: 0
-  size0: 0
+  size0: 1
   sizeDecaySpeed: 0
+  summonPrefab: {fileID: 11400000, guid: 64fda255cf14a174fb2dea416fce37c4, type: 2}
+  area: {fileID: 0}
+  damageType: 0
+  damage: 0
 --- !u!1 &7962817450029153146
 GameObject:
   m_ObjectHideFlags: 0
