@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6175217105993332770}
   - component: {fileID: 541355515824334651}
+  - component: {fileID: -3486191124712982317}
   m_Layer: 0
   m_Name: Spark strike
   m_TagString: Untagged
@@ -46,9 +47,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db29e0159160b54da09d616a2eeaa3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Suriyun.MCS.Example.Ability
+  isDamage: 0
+  isSummon: 0
   rotationSpeed: 0
-  size0: 0
+  size0: 1
   sizeDecaySpeed: 0
+  area: {fileID: 473106029872505855}
+  damageType: 0
+  damage: 50
+--- !u!54 &-3486191124712982317
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2324613009300225439}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7537976237712445433
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,11 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SurvivalEngine;
 
 namespace Suriyun.MCS.Example
 {
     public class Ability : MonoBehaviour
     {
+        /* 
+
+        boolean for each effect
+
+        Effects:
+        Damage
+              array for collider
+              oncollide function
+        Summon
+              instanciation
+
+        */
+
+        public bool isDamage, isSummon;
+
+          
         public float rotationSpeed;
 
         public float size0;
@@ -15,6 +32,8 @@ namespace Suriyun.MCS.Example
 
         private void Start() {
             this.transform.localScale = Vector3.one * size0;
+
+            StartCoroutine("DamageRoutine");
         }
 
         private void Update() {
@@ -33,5 +52,40 @@ namespace Suriyun.MCS.Example
                 Destroy(this.gameObject);
             }
         }
+
+
+        #region Effects
+        public enum DamageType
+        {
+            Physical,
+
+            Magic,
+
+        }
+
+        public Collider area;
+
+        public DamageType damageType;
+
+        public int damage;
+
+        public void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.tag == "Enemy")    
+            {
+                AttackTarget target = other.GetComponent<AttackTarget>();
+                target.TakeDamage(damage);
+
+            }
+            
+        }
+
+        public IEnumerator DamageRoutine()
+        {
+           yield return new WaitForSeconds(0.2f);
+           area.enabled = false; 
+        }
+
+        #endregion
     }
 }
