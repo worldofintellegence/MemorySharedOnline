@@ -998,11 +998,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 676693d5-3f05-4553-acb4-743fe919ba08
+  cloudProjectId: b3c3a86e-bb56-46b7-9d6e-30df8bd9894e
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: App Ui
-  organizationId: alisiyal
+  projectName: Memory Shared Online
+  organizationId: mukraisestudios
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

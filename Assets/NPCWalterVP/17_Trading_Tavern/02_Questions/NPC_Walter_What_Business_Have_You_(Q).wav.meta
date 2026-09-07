@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 590c070e60f2ff44689afd1af47e87e0
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299132
+  packageName: Walter - Senior NPC Character Voice Pack
+  packageVersion: 1.0
+  assetPath: Assets/NPCWalterVP/17_Trading_Tavern/02_Questions/NPC_Walter_What_Business_Have_You_(Q).wav
+  uploadId: 699830

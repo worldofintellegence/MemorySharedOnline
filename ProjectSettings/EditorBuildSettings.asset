@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/SurvivalEngine/Scenes/Menu/Menu.unity
     guid: 8b91b7925b8b3184294002162dd2d6fe
   - enabled: 1
-    path: Assets/Memory Shared Online/Scene/tutorial city.unity
+    path: Assets/Memory Shards Online/Scene/tutorial city.unity
     guid: a4dfba85bb5559349b7370e34aa904de
   - enabled: 1
     path: Assets/MediaPipeUnity/Samples/Scenes/Pose Landmark Detection/PushupTrainingScene.unity
@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/SurvivalEngine/Scenes/Menu/MenuLobby.unity
     guid: b0a63d2e738056f4992e325b895c192c
   - enabled: 0
-    path: Assets/Memory Shared Online/Scene/Main.unity
+    path: Assets/Memory Shards Online/Scene/Main.unity
     guid: 23905b4e2da9242b889e123be2f7f637
   - enabled: 0
     path: Assets/SurvivalEngine/Scenes/Game/Forest.unity

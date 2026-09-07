@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: f45fe309ca36aa14aae738e074d6689a
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299132
+  packageName: Walter - Senior NPC Character Voice Pack
+  packageVersion: 1.0
+  assetPath: Assets/NPCWalterVP/18_Villager/NPC_Walter_Onward.wav
+  uploadId: 699830
