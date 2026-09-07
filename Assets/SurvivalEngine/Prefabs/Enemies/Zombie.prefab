@@ -288,7 +288,8 @@ MonoBehaviour:
   hit_range: 1
   xp: 100
   xp_type: 
-  loots: []
+  loots:
+  - {fileID: 11400000, guid: 0a1f8b3685e3ded40bc53714705df9be, type: 2}
   shake_on_hit: 1
   destroy_delay: 4
   attack_center: {fileID: 148690371504734854}
