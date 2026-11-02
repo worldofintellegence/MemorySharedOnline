@@ -16,7 +16,8 @@ MonoBehaviour:
   title: Skin
   icon: {fileID: 21300000, guid: 5beb05c7be84dd94dbc6e094a40e0e4a, type: 3}
   desc: Basic Material
-  groups: []
+  groups:
+  - {fileID: 11400000, guid: 792deb6c6b6e8424bb05be1762071184, type: 2}
   craftable: 0
   craft_quantity: 1
   craft_duration: 0
@@ -54,11 +55,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c940e7d1134ced948824248625884a12, type: 2}
   - {fileID: 11400000, guid: d2e00df561181024d9d85af8d6b9c5bc, type: 2}
   buy_cost: 0
-  sell_cost: 0
+  sell_cost: 10
   container_data: {fileID: 0}
-  plant_data: {fileID: 0}
-  construction_data: {fileID: 0}
-  character_data: {fileID: 0}
+  build_data: {fileID: 0}
   projectile_group: {fileID: 0}
   item_prefab: {fileID: 192438781757254161, guid: 5d1fcdf1efea55e448e24eda226a1ae4,
     type: 3}

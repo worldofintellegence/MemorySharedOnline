@@ -460,6 +460,8 @@ namespace SurvivalEngine
             if (HasMaster())
             {
                 PlayerCharacter master = GetMaster();
+                if (master == null)
+                    return false; //Master is not connected
                 Vector3 dir = master.transform.position - transform.position;
                 return dir.magnitude > distance;
             }

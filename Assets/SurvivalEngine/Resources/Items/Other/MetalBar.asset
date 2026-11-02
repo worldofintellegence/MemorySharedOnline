@@ -18,6 +18,7 @@ MonoBehaviour:
   desc: Basic Material
   groups:
   - {fileID: 11400000, guid: 5c72d9d810f79b84b9441071beda95bc, type: 2}
+  - {fileID: 11400000, guid: 792deb6c6b6e8424bb05be1762071184, type: 2}
   craftable: 1
   craft_quantity: 1
   craft_duration: 0
@@ -58,11 +59,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c940e7d1134ced948824248625884a12, type: 2}
   - {fileID: 11400000, guid: d2e00df561181024d9d85af8d6b9c5bc, type: 2}
   buy_cost: 0
-  sell_cost: 0
+  sell_cost: 20
   container_data: {fileID: 0}
-  plant_data: {fileID: 0}
-  construction_data: {fileID: 0}
-  character_data: {fileID: 0}
+  build_data: {fileID: 0}
   projectile_group: {fileID: 0}
   item_prefab: {fileID: 3760244694164135267, guid: e877c2692a70b5543a4e55a458c2369a,
     type: 3}

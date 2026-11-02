@@ -171,7 +171,6 @@ namespace SurvivalEngine
         {
             if (!TheNetwork.Get().IsClient)
                 return;
-                Debug.Log($"Client Update: Day {WorldData.Get().day}, Time {WorldData.Get().day_time}");
 
             //Set music
             AudioClip[] music_playlist = AssetData.Get().music_playlist;

@@ -42,6 +42,7 @@ namespace SurvivalEngine
     [HideInInspector] 
     public Vector2 mobile_move;
     [HideInInspector] public Vector2 mobile_freelook;
+    [HideInInspector] public float mobile_rotate_cam; //-1 to 1 from buttons, or larger values from touch drag
 
     [HideInInspector] public bool mobile_action;
     [HideInInspector] public bool mobile_attack;
@@ -152,6 +153,19 @@ namespace SurvivalEngine
                 press_ui_select |= mobile_ui_select;
                 press_ui_use |= mobile_ui_use;
                 press_ui_cancel |= mobile_ui_cancel;
+
+                rotate_cam += mobile_rotate_cam;
+
+                //One-shot buttons: consume the press so holding doesn't repeat it every frame (attack stays held)
+                mobile_action = false;
+                mobile_jump = false;
+                mobile_craft = false;
+                mobile_accept = false;
+                mobile_cancel = false;
+                mobile_pause = false;
+                mobile_ui_select = false;
+                mobile_ui_use = false;
+                mobile_ui_cancel = false;
             }
             // ---------------- KEYBOARD INPUT ----------------
 

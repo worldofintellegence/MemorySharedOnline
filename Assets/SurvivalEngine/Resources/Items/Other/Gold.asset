@@ -16,7 +16,8 @@ MonoBehaviour:
   title: Gold
   icon: {fileID: 21300000, guid: 99ded8201e4fa1d4a8c0c6c330e8fc2e, type: 3}
   desc: Basic Material
-  groups: []
+  groups:
+  - {fileID: 11400000, guid: 792deb6c6b6e8424bb05be1762071184, type: 2}
   craftable: 0
   craft_quantity: 1
   craft_duration: 0
@@ -54,8 +55,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c940e7d1134ced948824248625884a12, type: 2}
   - {fileID: 11400000, guid: d2e00df561181024d9d85af8d6b9c5bc, type: 2}
   - {fileID: 11400000, guid: 9d53b51ad17133b47adef5ae5d73f5de, type: 2}
-  buy_cost: 5
-  sell_cost: 5
+  buy_cost: 0
+  sell_cost: 10
   container_data: {fileID: 0}
   build_data: {fileID: 0}
   projectile_group: {fileID: 0}

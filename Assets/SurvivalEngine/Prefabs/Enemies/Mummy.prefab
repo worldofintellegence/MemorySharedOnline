@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c28ac43a7b6117843a9cb91735638cb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 8000
+  hp: 1500
   armor: 2
   hp_regen: 2
   target_team: 20
@@ -288,7 +288,12 @@ MonoBehaviour:
   hit_range: 1
   xp: 100
   xp_type: 
-  loots: []
+  loots:
+  - {fileID: 11400000, guid: bb1371d1265d841cbbd9f1170d3a2a70, type: 2}
+  - {fileID: 11400000, guid: 6b17760f27b5c4330aa052ca0b4e9568, type: 2}
+  - {fileID: 11400000, guid: 076ea1dcf81f444b5a4d51f06f3484ad, type: 2}
+  - {fileID: 11400000, guid: 7d8022cd098ba4e9e9d56488941fb1aa, type: 2}
+  - {fileID: 11400000, guid: e5d56a59c67644f3cb0fb3e131f2560c, type: 2}
   shake_on_hit: 1
   destroy_delay: 4
   attack_center: {fileID: 148690371504734854}

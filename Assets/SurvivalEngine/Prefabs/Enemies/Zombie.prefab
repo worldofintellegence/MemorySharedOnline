@@ -289,7 +289,14 @@ MonoBehaviour:
   xp: 100
   xp_type: 
   loots:
-  - {fileID: 11400000, guid: 0a1f8b3685e3ded40bc53714705df9be, type: 2}
+  - {fileID: 11400000, guid: 3bb2cefde83bc47a5bea1c633504013b, type: 2}
+  - {fileID: 11400000, guid: 0b1d6619d697c4413b6693d8fd629f80, type: 2}
+  - {fileID: 11400000, guid: 1486c7a8562a741bba78897193db4fd5, type: 2}
+  - {fileID: 11400000, guid: 9622b9c1d996240f89aedf48a9445a96, type: 2}
+  - {fileID: 11400000, guid: 1b615f98c4bef4a409889b88ff3665fd, type: 2}
+  - {fileID: 11400000, guid: 7eb992f3e27334cdd97fa7ee7855c8f0, type: 2}
+  - {fileID: 11400000, guid: e5d56a59c67644f3cb0fb3e131f2560c, type: 2}
+  - {fileID: 11400000, guid: ce11e84c8040fcc40b586d3274722027, type: 2}
   shake_on_hit: 1
   destroy_delay: 4
   attack_center: {fileID: 148690371504734854}

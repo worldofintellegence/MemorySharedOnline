@@ -18,6 +18,7 @@ MonoBehaviour:
   desc: Ranged Weapon. Requires Arrows.
   groups:
   - {fileID: 11400000, guid: 9f19be8f45aa5a542910e6f90b6256a6, type: 2}
+  - {fileID: 11400000, guid: a7da9000e30b44da69b5d391bbcf544b, type: 2}
   craftable: 1
   craft_quantity: 1
   craft_duration: 0
@@ -56,8 +57,8 @@ MonoBehaviour:
   actions:
   - {fileID: 11400000, guid: 15af810dc6fe6b746b53fcc59374e103, type: 2}
   - {fileID: 11400000, guid: d2e00df561181024d9d85af8d6b9c5bc, type: 2}
-  buy_cost: 0
-  sell_cost: 0
+  buy_cost: 150
+  sell_cost: 50
   container_data: {fileID: 0}
   build_data: {fileID: 0}
   projectile_group: {fileID: 11400000, guid: d41a40b7d52836440886c7ea3a100616, type: 2}

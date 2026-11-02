@@ -58,8 +58,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 15af810dc6fe6b746b53fcc59374e103, type: 2}
   - {fileID: 11400000, guid: d2e00df561181024d9d85af8d6b9c5bc, type: 2}
   - {fileID: 11400000, guid: 656dd7dbdde7cc44dbbaa9e178a1da03, type: 2}
-  buy_cost: 0
-  sell_cost: 0
+  buy_cost: 40
+  sell_cost: 12
   container_data: {fileID: 0}
   build_data: {fileID: 0}
   projectile_group: {fileID: 0}

@@ -23,6 +23,8 @@ public class AnalogStickBridge : MonoBehaviour
     // 🔹 Inspector-compatible (On Drag / On Begin Drag)
     public void OnStickDrag_Int(int fingerId)
     {
+        if (controls == null)
+            controls = PlayerControls.Get(); //May not exist yet in Awake
         if (analogStick == null || controls == null)
             return;
 
@@ -30,9 +32,14 @@ public class AnalogStickBridge : MonoBehaviour
         currentDirection = new Vector2(dir.x, dir.y);
 
         if (isMovementStick)
+        {
             controls.mobile_move = currentDirection;
+        }
         else
+        {
             controls.mobile_freelook = currentDirection;
+            controls.mobile_rotate_cam = currentDirection.x; //Survival Engine camera rotates left/right
+        }
     }
 
     // 🔹 Inspector-compatible (On End Drag / Pointer Up)
@@ -44,8 +51,13 @@ public class AnalogStickBridge : MonoBehaviour
             return;
 
         if (isMovementStick)
+        {
             controls.mobile_move = Vector2.zero;
+        }
         else
+        {
             controls.mobile_freelook = Vector2.zero;
+            controls.mobile_rotate_cam = 0f;
+        }
     }
 }
