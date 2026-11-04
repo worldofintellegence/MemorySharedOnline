@@ -9,11 +9,13 @@ namespace SurvivalEngine
 
     public enum InventoryType
     {
-        None=0,
-        Inventory=5,
-        Equipment=10,
-        Storage=15,
-        Bag=20,
+        None = 0,
+        Inventory = 5,
+        Equipment = 10,
+        Storage = 15,
+        Bag = 20,
+        SpellBook = 25,
+        Abilities = 30,
     }
 
     [System.Serializable]

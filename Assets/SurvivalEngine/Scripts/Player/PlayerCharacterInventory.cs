@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using NetcodePlus;
 using Unity.Netcode;
+using Suriyun.MCS.Example;
 
 namespace SurvivalEngine
 {
@@ -88,6 +89,27 @@ namespace SurvivalEngine
                     equipped_data.Add(item.Value.item_id);
                     if (!equipped_items.ContainsKey(item.Value.item_id))
                         EquipAddedItem(item.Value.item_id);
+                }
+            }
+
+            //Equipped abilities
+            foreach (KeyValuePair<int, InventoryItemData> item in AbilityData.items)
+            {
+                            Debug.Log("Teser");
+                if (item.Value != null)
+                {
+                                Debug.Log("Tesel");
+                    if ( item.Value != null && item.Value.GetItem().ability_prefab != null)
+                    {
+                        Debug.Log("Teset");
+
+                        //PlayerCharacter.Get().GetComponent<Abilities>().skillSettings[0].skillPrefab = item.Value.GetItem().ability_prefab;
+                        //PlayerCharacter.Get().GetComponent<Abilities>().skillSettings[0].enabled = true;
+                        PlayerCharacter.Get().GetComponent<Abilities>().SetAbility(0, item.Value.GetItem().ability_prefab);
+                    }
+                    /* equipped_data.Add(item.Value.item_id);
+                    if (!equipped_items.ContainsKey(item.Value.item_id))
+                        EquipAddedItem(item.Value.item_id); */
                 }
             }
 
@@ -285,6 +307,42 @@ namespace SurvivalEngine
             }
         }
 
+        //Absorb shard and gain its spell
+        public void AbsorbItem(int slot)
+        {
+            AbsorbItem(InventoryData, slot);
+        }
+
+        public void AbsorbItem(InventoryData inventory, int slot, int quantity = 1)
+        {
+            InventoryItemData idata = inventory.GetInventoryItem(slot);
+            ItemData item = ItemData.Get(idata?.item_id);
+
+            if (item != null && item.type == ItemType.Shard)
+            {
+                if (inventory.IsItemIn(item.id, slot))
+                {
+                    inventory.RemoveItemAt(slot, quantity);
+                    if (item.container_data)
+                        inventory.AddItem(item.container_data.id, quantity, item.container_data.durability, UniqueID.GenerateUniqueID());
+
+                    character.StopSleep();
+                    character.Attributes.AddAttribute(AttributeType.Health, item.eat_hp * quantity);
+                    character.Attributes.AddAttribute(AttributeType.Hunger, item.eat_hunger * quantity);
+                    character.Attributes.AddAttribute(AttributeType.Thirst, item.eat_thirst * quantity);
+                    character.Attributes.AddAttribute(AttributeType.Happiness, item.eat_happiness * quantity);
+
+                    foreach (BonusEffectData bonus in item.eat_bonus)
+                    {
+                        character.SaveData.AddTimedBonus(bonus.type, bonus.value, item.eat_bonus_duration);
+                    }
+
+                    Refresh(inventory);
+                    character.Attributes.RefreshAttributes();
+                }
+            }
+        }
+
         //Drop item on the floor
         public void DropItem(int slot)
         {
@@ -447,6 +505,15 @@ namespace SurvivalEngine
                 EquipItemTo(inventory, islot, idata.equip_slot);
             }
         }
+        public void EquipShard(InventoryData inventory, int islot)
+        {
+            InventoryItemData item = inventory.GetInventoryItem(islot);
+            ItemData idata = ItemData.Get(item?.item_id);
+            if (idata != null && idata.type == ItemType.Shard)
+            {
+                EquipItemTo(inventory, islot, idata.equip_slot);
+            }
+        }
 
         public void EquipItemTo(int islot, EquipSlot eslot)
         {
@@ -463,6 +530,24 @@ namespace SurvivalEngine
         }
 
         public void UnequipItem(EquipSlot eslot)
+        {
+            InventoryItemData invdata = EquipData.GetEquippedItem(eslot);
+            ItemData idata = ItemData.Get(invdata?.item_id);
+
+            if (invdata != null && InventoryData.CanTakeItem(invdata.item_id, 1))
+            {
+                int islot = InventoryData.GetFirstItemOrEmptySlot(invdata.item_id, idata.inventory_max - 1);
+                NetworkActionInventoryData ndata = new NetworkActionInventoryData(InventoryData, islot, (int)eslot);
+                actions.Trigger(ActionType.UnEquip, ndata); // DoUnequipItem(ndata)
+            }
+            else if (invdata != null && BagData != null && BagData.CanTakeItem(invdata.item_id, 1) && !idata.IsBag())
+            {
+                int islot = BagData.GetFirstItemOrEmptySlot(invdata.item_id, idata.inventory_max - 1);
+                NetworkActionInventoryData ndata = new NetworkActionInventoryData(BagData, islot, (int)eslot);
+                actions.Trigger(ActionType.UnEquip, ndata); // DoUnequipItem(ndata)
+            }
+        }
+        public void UnequipShard(EquipSlot eslot)
         {
             InventoryItemData invdata = EquipData.GetEquippedItem(eslot);
             ItemData idata = ItemData.Get(invdata?.item_id);
@@ -853,6 +938,10 @@ namespace SurvivalEngine
             {
                 equipped_items.Add(item_id, null);
             }
+            /* if ( idata != null && idata.ability_prefab != null)
+            {
+                PlayerCharacter.Get().GetComponent<Abilities>().skillSettings[0].skillPrefab = idata.ability_prefab;
+            } */
         }
 
         private void UnequipRemovedItem(string item_id)
@@ -926,6 +1015,11 @@ namespace SurvivalEngine
         {
             get { return InventoryData.Get(InventoryType.Equipment, character.PlayerID); }
         }
+
+        public InventoryData AbilityData
+        {
+            get { return InventoryData.Get(InventoryType.Abilities, character.PlayerID); }
+        } 
 
         public InventoryData BagData //Can be null if no bag
         {

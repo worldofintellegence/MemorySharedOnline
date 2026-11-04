@@ -126,7 +126,7 @@ namespace SurvivalEngine
 
         public InventoryData GetInventory(InventoryType type)
         {
-            string uid = (type == InventoryType.Equipment) ? GetPlayerEquipUID() : GetPlayerUID();
+            string uid = (type == InventoryType.Equipment) ? GetPlayerEquipUID() : (type == InventoryType.Abilities) ? GetPlayerAbilityUID(): GetPlayerUID();
             return GetInventory(type, uid);
         }
 
@@ -440,6 +440,11 @@ namespace SurvivalEngine
         }
 
         public string GetPlayerEquipUID()
+        {
+            return "equip";
+        }
+
+        public string GetPlayerAbilityUID()
         {
             return "equip";
         }

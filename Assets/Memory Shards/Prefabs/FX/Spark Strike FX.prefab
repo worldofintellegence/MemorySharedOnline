@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 541355515824334651}
   - component: {fileID: -3486191124712982317}
   m_Layer: 0
-  m_Name: Spark strike
+  m_Name: Spark Strike FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

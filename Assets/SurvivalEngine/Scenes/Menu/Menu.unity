@@ -3324,7 +3324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cc7a093c1699b948a1a23038e40fe92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  options: []
+  options:
+  - value: tutorial city 1
+    title: tutorial city 1
   select_text: {fileID: 1277203916}
 --- !u!1 &116784231
 GameObject:
@@ -63770,8 +63772,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   options:
-  - value: Test
-    title: Test
+  - value: tutorial city 1
+    title: tutorial city 1
   - value: Forest
     title: Forest
   - value: Farm

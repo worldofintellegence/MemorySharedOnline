@@ -1,8 +1,10 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
 using Suriyun.MCS;
+using SurvivalEngine;
+using UnityEngine.UI;
 
 namespace Suriyun.MCS.Example
 {
@@ -32,6 +34,18 @@ namespace Suriyun.MCS.Example
                 skillSettings[i].skillMarker.transform.position = this.transform.position;
                 skillSettings[i].skillMarker.SetActive(false);
                 cooldowns[i] = 0f;
+                if(skillSettings[i].skillPrefab == null)
+                {
+                    Debug.Log("SkillPrefabFalse" + skillSettings[i].skillPrefab + i);
+                    skillSettings[i].enabled = false;
+                    skillButtons[i].SetActiveState(false);
+                }
+                else
+                {
+                    Debug.Log("SkillPrefabTrue" + skillSettings[i].skillPrefab + i);
+                    skillSettings[i].enabled = true;
+                    skillButtons[i].SetActiveState(true);
+                }
             }
         }
 
@@ -55,6 +69,19 @@ namespace Suriyun.MCS.Example
                 skillButtons[i].onActivateSkill.RemoveListener(OnActivateSkill);
                 skillButtons[i].onCancelSkill.RemoveListener(OnCancelSkill);
             }
+        }
+
+        public void SetAbility(int index, GameObject ability_prefab)
+        {
+            skillSettings[index].enabled = true;
+            skillSettings[index].skillPrefab = ability_prefab;
+            //skillButtons[index].SetActiveState(true);
+        }
+
+        public void UnsetAbility(int index)
+        {
+            skillSettings[index].enabled = false;
+            //skillButtons[index].SetActiveState(false);
         }
 
         protected Vector3 cachedInput;
@@ -98,12 +125,14 @@ namespace Suriyun.MCS.Example
                 } else {
                     if (skillButtons[i].state == UniversalButton.ButtonState.Inactive) {
                         skillButtons[i].SetText("");
-                        skillButtons[i].SetActiveState(true);
+
+                        skillButtons[i].SetActiveState(skillSettings[i].enabled ? true: false);
                     }
                 }
             }
         }
 
+        #region Buttons
         protected virtual void OnSkillButtonPressed(int i) {
             skillSettings[i].skillMarker.SetActive(true);
             this.UpdateSkillMarkersState(i);
@@ -148,7 +177,9 @@ namespace Suriyun.MCS.Example
         public void ResetPosition() {
             this.transform.position = Vector3.up;
         }
+        #endregion
 
+        #region SkillSetting
         [Serializable]
         public class SkillSetting
         {
@@ -165,6 +196,8 @@ namespace Suriyun.MCS.Example
             protected MeshRenderer renderer;
 
             protected Ability skill;
+
+            public bool enabled;
 
             public void SetMarkerCanCastSkill(bool can) {
                 if (renderer == null) {
@@ -188,5 +221,6 @@ namespace Suriyun.MCS.Example
 
             }
         }
+        #endregion
     }
 }

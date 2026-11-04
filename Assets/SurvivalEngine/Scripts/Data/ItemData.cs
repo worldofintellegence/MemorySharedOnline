@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using NetcodePlus;
+using Suriyun.MCS.Example;
 
 namespace SurvivalEngine
 {
@@ -12,7 +13,7 @@ namespace SurvivalEngine
         Basic = 0,
         Consumable = 10,
         Equipment = 20,
-
+        Shard = 30,
     }
 
     public enum WeaponType
@@ -42,9 +43,13 @@ namespace SurvivalEngine
         Shield = 70,
 
         //Generic slot for other parts, rename them to your own
-        Slot8 = 80,
-        Slot9 = 90,
-        Slot10 = 100,
+        Ability = 80,
+        //AbilitySlot2 = 90,
+        //AbilitySlot3 = 100,
+        Electric = 90,
+        Fel = 100,
+
+        Slot11 = 110,
     }
 
     public enum EquipSide
@@ -84,6 +89,9 @@ namespace SurvivalEngine
         public float attack_cooldown = 1f; //Seconds of waiting in between each attack
         public int strike_per_attack = 0; //Minimum is 1, if set to 3, each attack will hit 3 times, or shoot 3 projectiles
         public float strike_interval = 0f; //Interval in seconds between each strike of a single attack
+
+        [Header("Stats Equip Ability")]
+        public GameObject ability_prefab;
 
         [Header("Stats Consume")]
         public int eat_hp = 0;

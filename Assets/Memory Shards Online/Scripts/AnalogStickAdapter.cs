@@ -2,7 +2,7 @@ using UnityEngine;
 using SurvivalEngine;
 using Suriyun.MCS;
 
-public class AnalogStickBridge : MonoBehaviour
+public class AnalogStickAdapter : MonoBehaviour
 {
     [Header("References")]
     public PlayerControls controls;
@@ -14,7 +14,7 @@ public class AnalogStickBridge : MonoBehaviour
     [Header("Read Only")]
     public Vector2 currentDirection;
 
-    void Awake()
+    void Start()
     {
         if (controls == null)
             controls = PlayerControls.Get();
